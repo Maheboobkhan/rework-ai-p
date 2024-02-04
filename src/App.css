@@ -1,0 +1,28 @@
+
+
+.testimonial-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; 
+}
+
+.testimonial-card {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 5px;
+}
+
+/* Media query for small screens */
+@media (max-width: 767px) {
+    .testimonial-carousel {
+        scroll-behavior: smooth;
+        width: calc(100% + 10px); 
+        margin-left: -5px;
+    }
+
+    .testimonial-card {
+        margin-right: 10px;
+    }
+}
