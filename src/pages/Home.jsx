@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../components/Footer/Footer'
+import Footer from '../components/footer/Footer'
 import MentorshipProgram from '../components/mentorShip/MentorShipProgram'
 import FAQSection from '../components/faq/FAQSection'
 import Testimonial from '../components/testimonials/Testimonial'
