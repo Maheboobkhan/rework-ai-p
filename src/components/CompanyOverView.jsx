@@ -13,7 +13,7 @@ function CompanyOverView() {
           et. Sit mi ornare sapien bibendum.
         </p>
         <div className="flex gap-5 justify-between self-stretch px-5 py-5 mt-9 text-4xl font-bold whitespace-nowrap leading-[60px] text-zinc-50 max-md:flex-wrap max-md:pl-5 max-md:max-w-full">
-          <div className="flex flex-col flex-1 justify-center px-5 py-2.5 rounded-xl max-md:px-5">
+          <div className="flex flex-col px-5 py-2.5 rounded-xl max-md:px-5 items-center">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/308c57690b9e30ea68687dddd384c96f3395052be8877e7af21a0ef20d275675?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"

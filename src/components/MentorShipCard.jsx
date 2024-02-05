@@ -6,17 +6,18 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 // import required modules
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Autoplay, Scrollbar } from 'swiper/modules';
 
 function MentorshipCard() {
-  SwiperCore.use([Pagination, Autoplay]);
+
+  SwiperCore.use([Scrollbar, Autoplay]);
   return (
     <>
       <div>
-        <p className="text-indigo-700 bg-purple-100 rounded-[10px] px-2 py-3 w-fit m-auto mt-4">What We Offer</p>
+        <p className="text-indigo-700 bg-purple-100 rounded-[10px] px-2 py-3 w-fit m-auto mt-12">What We Offer</p>
         <h1 className="font-bold text-[35px] w-fit m-auto mt-2 text-center">We offer the best Mentorship</h1>
         <MentorShipParagraph />
 
@@ -25,12 +26,15 @@ function MentorshipCard() {
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
-            pagination={{
-              clickable: true,
-            }}
+
 
             loop={true}
-            modules={[Pagination]}
+            // scrollbar={{
+            //   hide: false,
+            //   // dragSize: 20,
+            //   snapOnRelease: true,
+            // }}
+            modules={[Scrollbar]}
             className="mySwiper"
             autoplay={{   // Autoplay configuration
               delay: 2500,  // Delay between transitions in milliseconds
@@ -38,7 +42,7 @@ function MentorshipCard() {
             }}
 
             breakpoints={{
-              330: {
+              320: {
                 slidesPerView: 1,
                 spaceBetween: 10,
               },
@@ -165,6 +169,24 @@ function MentorshipCard() {
                 <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-5 hover:text-white hover:bg-opacity-50">Learn more</button>
               </div>
             </SwiperSlide>
+          </Swiper>
+          <Swiper className="mySwiper w-40"
+            slidesPerView={3}
+            loop={true}
+            scrollbar={{
+              hide: false,
+              dragSize: 20,
+            }}
+            modules={[Scrollbar]}
+            autoplay={{   // Autoplay configuration
+              delay: 2500,  // Delay between transitions in milliseconds
+              disableOnInteraction: false  // Autoplay will not be disabled after user interactions
+            }}>
+            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
           </Swiper>
 
         </div>

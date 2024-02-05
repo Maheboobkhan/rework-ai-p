@@ -9,10 +9,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Scrollbar, Autoplay } from 'swiper/modules';
 
 function ProfileCards() {
-  SwiperCore.use([Pagination, Autoplay]);
+  SwiperCore.use([Scrollbar, Autoplay]);
   return (
     <div className="flex flex-col items-center py-12 bg-slate-50">
       <div className="justify-center p-2.5 mt-7 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50">
@@ -28,12 +28,12 @@ function ProfileCards() {
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
-            pagination={{
-              clickable: true,
-            }}
+            // pagination={{
+            //   clickable: true,
+            // }}
 
             loop={true}
-            modules={[Pagination]}
+            modules={[Scrollbar]}
             className="mySwiper"
             autoplay={{   // Autoplay configuration
               delay: 2500,  // Delay between transitions in milliseconds
@@ -41,7 +41,7 @@ function ProfileCards() {
             }}
 
             breakpoints={{
-              330: {
+              320: {
                 slidesPerView: 1,
                 spaceBetween: 10,
               },
@@ -318,9 +318,28 @@ function ProfileCards() {
               </div>
             </SwiperSlide>
           </Swiper>
+          
         </div>
+        <Swiper className="mySwiper w-40"
+            slidesPerView={3}
+            loop={true}
+            scrollbar={{
+              hide: false,
+              dragSize: 20,
+            }}
+            modules={[Scrollbar]}
+            autoplay={{   // Autoplay configuration
+              delay: 2500,  // Delay between transitions in milliseconds
+              disableOnInteraction: false  // Autoplay will not be disabled after user interactions
+            }}>
+            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+          </Swiper>
       </div>
-      <div className="justify-center px-12 py-5 mt-12 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 hover:text-violet-800 hover:bg-violet-200 rounded-xl max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
+      <div className="justify-center px-10 py-2.5 mt-12 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 hover:text-violet-800 hover:bg-violet-200 rounded-xl max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
         view all
       </div>
     </div>

@@ -17,7 +17,7 @@ function MainSection() {
               Elevate your career journey with personalized mentorship from
               industry experts. 🚀
             </p>
-            <button className="justify-center self-start px-8 py-5 mt-14 text-lg mx-auto leading-7 text-white whitespace-nowrap bg-violet-800 rounded-xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
+            <button className="justify-center self-start px-7 py-2.5 mt-14 text-lg mx-auto leading-7 text-white whitespace-nowrap bg-violet-800 rounded-xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
               Book a trial
             </button>
             <div className="flex gap-5 flex-wrap justify-between items-center self-start mt-6 text-lg text-center text-indigo-400 whitespace-nowrap mx-auto">
@@ -35,7 +35,7 @@ function MainSection() {
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/97b26dbce0e3f9b07aea5a56e2a764b8a5a8ba837ff18c64a156d17af537a278?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
                   className="aspect-[0.88] fill-indigo-400 w-[23px]"
                 />
-                <span className="grow self-start mt-3">
+                <span className="grow self-start">
                   100% Placement Assistance
                 </span>
               </div>

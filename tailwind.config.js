@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        Caveat: ['Caveat', 'cursive'],
+      },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
       },

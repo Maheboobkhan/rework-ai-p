@@ -17,7 +17,7 @@ function StepsCards() {
       <div className="self-stretch mt-20 max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
           <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
-            <div className="flex flex-col grow px-8 py-12 w-full text-center bg-violet-800 hover:bg-violet-500 rounded-xl shadow-sm backdrop-blur-[2px] max-md:px-5 max-md:mt-6">
+            <div className="flex flex-col grow px-8 py-12 w-full text-center bg-violet-800 rounded-xl shadow-sm backdrop-blur-[2px] max-md:px-5 max-md:mt-6">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/e8b95cb710c43ff3261632ab4629f27624133d6c1deb262979389c0b26218584?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
@@ -33,7 +33,7 @@ function StepsCards() {
             </div>
           </div>
           <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
-            <div className="flex flex-col grow px-8 py-12 w-full text-center bg-violet-100 hover:bg-violet-500 rounded-xl shadow-sm max-md:px-5 max-md:mt-6">
+            <div className="flex flex-col grow px-8 py-12 w-full text-center bg-violet-100 rounded-xl shadow-sm max-md:px-5 max-md:mt-6">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/4d751df8f5dd13ae1e9249597ff29166ad70f0bb27c2bfbd20116895270f2727?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
@@ -49,7 +49,7 @@ function StepsCards() {
             </div>
           </div>
           <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
-            <div className="flex flex-col grow px-8 py-12 w-full text-center bg-violet-800 hover:bg-violet-500 rounded-xl shadow-sm backdrop-blur-[2px] max-md:px-5 max-md:mt-6">
+            <div className="flex flex-col grow px-8 py-12 w-full text-center bg-violet-800 rounded-xl shadow-sm backdrop-blur-[2px] max-md:px-5 max-md:mt-6">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/3817c7e6b82559e5762e7dd32d4ae1f96b4bd8e3e78669be2f62ecd068d2a1d9?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
@@ -65,7 +65,7 @@ function StepsCards() {
             </div>
           </div>
           <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
-            <div className="flex flex-col grow px-8 py-12 w-full text-center bg-violet-100 hover:bg-violet-500 rounded-xl shadow-sm max-md:px-5 max-md:mt-6">
+            <div className="flex flex-col grow px-8 py-12 w-full text-center bg-violet-100 rounded-xl shadow-sm max-md:px-5 max-md:mt-6">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/9efac4174171658b2c0a431a71564cc31d9c5fd0ac815abfa3670e6d10c13023?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
@@ -83,7 +83,7 @@ function StepsCards() {
           </div>
         </div>
       </div>
-      <div className="justify-center px-8 py-4 mt-11 text-lg font-medium text-center hover:text-violet-800 text-neutral-100 bg-violet-800 whitespace-nowrap rounded-xl hover:border-2 hover:border-solid shadow-2xl hover:bg-neutral-100 hover:border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
+      <div className="justify-center px-7 py-2.5 mt-11 text-lg font-medium text-center hover:text-violet-800 text-neutral-100 bg-violet-800 whitespace-nowrap rounded-xl hover:border-2 hover:border-solid shadow-2xl hover:bg-neutral-100 hover:border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
         Get Started
       </div>
     </div>

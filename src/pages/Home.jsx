@@ -8,9 +8,9 @@ import Advantage from '../components/advantage/Advantage'
 const Home = () => {
     return (
         <div className='w-fit'>
-            <span className='text-[200px]'>↑</span><span className='text-[50px] bg-[red] text-wrap'>Above ui developed by Maheboob From "NAVBAR SECTION" to "ENROLL NOW"</span>
+            {/* <span className='text-[200px]'>↑</span><span className='text-[50px] bg-[red] text-wrap'>Above ui developed by Maheboob From "NAVBAR SECTION" to "ENROLL NOW"</span>
             <br />
-            <span className='text-[200px] mt-12'>↓</span><span className='text-[50px] bg-[red] text-wrap mt-12'>Below ui developed by Milan From "TRADITIONAL INTERVIEW SECTION" to "FOOTER"</span>
+            <span className='text-[200px] mt-12'>↓</span><span className='text-[50px] bg-[red] text-wrap mt-12'>Below ui developed by Milan From "TRADITIONAL INTERVIEW SECTION" to "FOOTER"</span> */}
 
             <div className='w-full'>
                 <Advantage />

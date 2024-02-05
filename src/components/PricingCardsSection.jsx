@@ -240,7 +240,7 @@ function PricingCardsSection() {
               </div>
             </div>
           </div>
-          <div className="justify-center px-8 py-4 mt-24 text-lg text-center hover:text-violet-800 text-neutral-100 bg-violet-800 whitespace-nowrap rounded-xl hover:border-2 hover:border-solid shadow-2xl hover:bg-neutral-100 hover:border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
+          <div className="justify-center px-7 py-2.5 mt-24 text-lg text-center hover:text-violet-800 text-neutral-100 bg-violet-800 whitespace-nowrap rounded-xl hover:border-2 hover:border-solid shadow-2xl hover:bg-neutral-100 hover:border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
             Enroll Now
           </div>
         </div>
