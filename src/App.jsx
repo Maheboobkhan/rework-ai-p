@@ -11,10 +11,12 @@ import StepsCards from "./components/StepsCards";
 import CertificateSection from "./components/CertificateSection";
 import PricingCardsSection from "./components/PricingCardsSection";
 import Home from './pages/Home'
+import TopRibbon from "./components/TopRibbon";
 
 function App() {
   return (
     <div className='overflow-x-hidden'>
+      <TopRibbon />
       <Header />
       <MainSection />
       <BrandsSection />

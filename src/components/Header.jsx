@@ -94,7 +94,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`px-4 ${isNavbarFixed ? 'fixed top-0 left-0 z-50 w-full bg-violet-100' : 'relative bg-white'}`}>
+    <nav className={`px-4 ${isNavbarFixed ? 'fixed top-0 left-0 z-50 w-full bg-white' : 'relative bg-white'}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white mt-4 leading-4">
           <span className="grow text-violet-800 text-[35px] font-bold">Talent</span>

@@ -17,7 +17,7 @@ function PricingCardsSection() {
             needs, Flexible payment options available.
           </div>
           <div className="justify-between self-stretch mt-12 max-md:mt-10 max-md:max-w-full">
-            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+            <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: ">
               <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
                 <div className="flex flex-col grow px-9 py-8 mx-auto w-full text-base rounded-xl shadow-2xl bg-neutral-100 text-zinc-600 max-md:px-5 max-md:mt-10">
                   <div className="flex gap-1.5 self-center text-2xl text-center text-violet-800 whitespace-nowrap">
@@ -84,19 +84,19 @@ function PricingCardsSection() {
                     />
                     <div className="grow">Custom reports</div>
                   </div>
-                  <div className="justify-center items-center px-16 py-4 mt-16 text-lg text-center text-white whitespace-nowrap bg-violet-800 rounded-xl shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
+                  <div className="justify-center font-semibold items-center px-16 py-4 mt-16 text-lg text-center text-white whitespace-nowrap bg-violet-800 rounded-xl shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
                     Get Started
                   </div>
                 </div>
               </div>
               <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
-                <div className="flex flex-col grow pb-8 pl-9 mx-auto w-full bg-neutral-100 rounded-xl shadow-2xl max-md:mt-10">
+                <div className="flex flex-col grow pb-8 pl-5 mx-auto w-full bg-violet-800 rounded-xl shadow-2xl max-md:mt-10">
                   <div className="flex gap-0.5 items-start self-end text-center whitespace-nowrap">
                     <div className="flex gap-1.5 self-end mt-9 text-2xl text-violet-800">
-                      <div className="font-medium">3</div>
-                      <div className="grow my-auto">Months</div>
+                      <div className="font-medium text-white">3</div>
+                      <div className="grow my-auto text-white">Months</div>
                     </div>
-                    <div className="grow justify-center self-start px-6 py-3 text-sm bg-amber-300 rounded-none text-stone-900 max-md:px-5">
+                    <div className="grow justify-center self-start px-6 py-3 text-sm bg-amber-300 rounded-tr-xl text-stone-900 max-md:px-5">
                       Most Popular
                     </div>
                   </div>
@@ -105,7 +105,7 @@ function PricingCardsSection() {
                     <div className="flex-auto">149.00</div>
                     <div className="self-start mt-3.5 text-base">/month</div>
                   </div>
-                  <div className="mt-12 text-lg leading-7 text-center text-stone-900 max-md:mt-10">
+                  <div className="mt-12 text-lg leading-7 text-center text-white max-md:mt-10">
                     Suitable for companies with 5-10 openings
                   </div>
                   <div className="flex gap-2.5 justify-between mt-5 text-base text-stone-900">
@@ -114,7 +114,7 @@ function PricingCardsSection() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3011d1facd42108af2e3cdd60da5ac0c512f15499fe2e1c5355784d1981fee12?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
                       className="w-6 aspect-square"
                     />
-                    <div className="flex-auto text-stone-900">
+                    <div className="flex-auto text-white">
                       10 interview-ready candidates
                     </div>
                   </div>
@@ -124,7 +124,7 @@ function PricingCardsSection() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3011d1facd42108af2e3cdd60da5ac0c512f15499fe2e1c5355784d1981fee12?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
                       className="w-6 aspect-square"
                     />
-                    <div className="flex-auto text-stone-900">Unlimited job postings</div>
+                    <div className="flex-auto text-white">Unlimited job postings</div>
                   </div>
                   <div className="flex gap-2.5 justify-between mt-2.5 text-base text-violet-100">
                     <img
@@ -132,7 +132,7 @@ function PricingCardsSection() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3011d1facd42108af2e3cdd60da5ac0c512f15499fe2e1c5355784d1981fee12?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
                       className="self-start w-6 aspect-square"
                     />
-                    <div className="flex-auto text-stone-900">
+                    <div className="flex-auto text-white">
                       Receive pre-vetted profiles within 48 hours
                     </div>
                   </div>
@@ -142,7 +142,7 @@ function PricingCardsSection() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/b250e1b1493b265715ea453bf92d45abf957541cac2a16beee9e8510023ee85b?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
                       className="w-6 aspect-square"
                     />
-                    <div className="flex-auto text-stone-900">Dedicated account manager</div>
+                    <div className="flex-auto text-white">Dedicated account manager</div>
                   </div>
                   <div className="flex gap-2.5 justify-between mt-2.5 text-base text-violet-100">
                     <img
@@ -150,7 +150,7 @@ function PricingCardsSection() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/b250e1b1493b265715ea453bf92d45abf957541cac2a16beee9e8510023ee85b?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
                       className="self-start w-6 aspect-square"
                     />
-                    <div className="flex-auto text-stone-900">
+                    <div className="flex-auto text-white">
                       Assistance with interview scheduling
                     </div>
                   </div>
@@ -160,9 +160,10 @@ function PricingCardsSection() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/b250e1b1493b265715ea453bf92d45abf957541cac2a16beee9e8510023ee85b?apiKey=005fd2ec8f724bb2899a5ee9fa844ab1&"
                       className="w-6 aspect-square"
                     />
-                    <div className="flex-auto text-stone-900">Custom reports</div>
+                    <div className="flex-auto text-white">Custom reports</div>
                   </div>
-                  <div className="px-20 py-4 mt-20 mr-12 mx-auto text-lg font-medium text-center bg-violet-800 rounded-xl shadow-2xl text-neutral-100 max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
+                  
+                  <div className="justify-center items-center px-16 py-3.5 mt-20 text-lg mr-5 text-center text-violet-800 whitespace-nowrap bg-white rounded-xl shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-500 font-semibold hover:text-white cursor-pointer transition-all transition-duration: 400ms;">
                     Get Started
                   </div>
                 </div>
@@ -233,7 +234,7 @@ function PricingCardsSection() {
                     />
                     <div className="grow">Custom reports</div>
                   </div>
-                  <div className="justify-center items-center px-16 py-4 mt-16 text-lg text-center text-white whitespace-nowrap bg-violet-800 rounded-xl shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
+                  <div className="justify-center font-semibold items-center px-16 py-4 mt-16 text-lg text-center text-white whitespace-nowrap bg-violet-800 rounded-xl shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
                     Get Started
                   </div>
                 </div>

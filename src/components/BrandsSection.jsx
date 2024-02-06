@@ -21,44 +21,56 @@ function BrandsSection() {
       >
         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
           <li>
-            <img src="./amazon.svg" alt="Facebook" />
+            <img src="/images/google.svg" alt="google" />
           </li>
           <li>
-            <img src="/vector-9.svg" alt="Disney" />
+            <img src="/images/ibm.svg" alt="ibm" />
           </li>
           <li>
-            <img src="/vector-8.svg" alt="Airbnb" />
+            <img src="/images/apple.svg" alt="apple" />
           </li>
           <li>
-            <img src="./apple.svg" alt="Apple" />
+            <img src="/images/amazon.svg" alt="amazon" />
           </li>
           <li>
-            <img src="/google.svg" alt="Spark" />
+            <img src="/images/sony.svg" alt="sony" />
           </li>
           <li>
-            <img src="/microsoft.svg" alt="Samsung" />
+            <img src="/images/microsoft.svg" alt="microsoft" />
           </li>
+
+          <li>
+            <img src="/images/whirlpool.svg" alt="whirlpool" />
+          </li>
+
         </ul>
-        <ul class="flex items-center justify-center md:justify-start ml-2 [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+
+        <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
           <li>
-            <img src="./amazon.svg" alt="Facebook" />
+            <img src="/images/google.svg" alt="google" />
           </li>
           <li>
-            <img src="/vector-9.svg" alt="Disney" />
+            <img src="/images/ibm.svg" alt="ibm" />
           </li>
           <li>
-            <img src="/vector-8.svg" alt="Airbnb" />
+            <img src="/images/apple.svg" alt="apple" />
           </li>
           <li>
-            <img src="./apple.svg" alt="Apple" />
+            <img src="/images/amazon.svg" alt="amazon" />
           </li>
           <li>
-            <img src="/google.svg" alt="Spark" />
+            <img src="/images/sony.svg" alt="sony" />
           </li>
           <li>
-            <img src="/microsoft.svg" alt="Samsung" />
+            <img src="/images/microsoft.svg" alt="microsoft" />
           </li>
+
+          <li>
+            <img src="/images/whirlpool.svg" alt="whirlpool" />
+          </li>
+
         </ul>
+        
       </div>
     </header >
   );
