@@ -82,7 +82,7 @@ const Testimonial = () => {
                 Success Stories:
                 <br /> Real Mentees, Real Results
             </div>
-            <div className="mt-2 ml-5 text-lg text-center text-black max-md:max-w-full">
+            <div className="w-screen mt-2 text-lg px-4 text-center text-black">
                 Checkout the reviews from our mentees about how their experience was with us.
             </div>
 
