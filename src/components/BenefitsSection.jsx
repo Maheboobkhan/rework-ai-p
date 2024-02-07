@@ -9,7 +9,7 @@ function BenefitsSection() {
         </div>
         <div className="font-Archivo-600 mt-5 text-5xl font-semibold text-center leading-[62.4px] text-neutral-800 max-md:max-w-full max-md:text-4xl">
           What You'll Gain
-        </div>{" "}
+        </div>
         <div className="font-Archivo-400 mt-2 text-xl leading-6 text-center text-neutral-700 w-[807px] max-md:max-w-full">
           Discover Success. Explore tailored opportunities and resources that
           make you job-ready. Join us to step into the career you've always
@@ -134,7 +134,7 @@ function BenefitsSection() {
                     className="max-w-full aspect-square md:w-[100px] sm:w-[100px] w-[50px]"
                   />
                   <div className="font-Lato mt-6 text-lg font-bold leading-6 whitespace-nowrap text-wrap text-center">
-                    {" "}
+                    
                     interview Scheduling
                   </div>
                   <div className="font-Lato self-stretch mt-5 text-sm leading-6 text-center">

@@ -12,11 +12,10 @@ function CertificateSection() {
                   
                   Unlock the Power of Our Features and get
                 </span>
-                {/* <span className="font-medium text-stone-800">Features</span>
-                <span className="font-medium text-stone-800"> and get </span> */}
+                
                 <span className="font-Archivo-800 font-extrabold text-stone-800">
-                  {" "}
-                  Certified by us{" "}
+                  
+                  Certified by us
                 </span>
                 <span className="font-medium text-stone-800">!</span>
               </span>
@@ -44,8 +43,8 @@ function CertificateSection() {
                 className="aspect-square w-[25px]"
               />
               <div className="text-[20px] font-medium font-Archivo-500 grow self-start mt-1.5">
-                {" "}
-                Earn a valuable credential{" "}
+                
+                Earn a valuable credential
               </div>
             </div>
 
@@ -56,8 +55,8 @@ function CertificateSection() {
                 className="aspect-square w-[25px]"
               />
               <div className="text-[20px] font-medium font-Archivo-500 grow self-start mt-1.5">
-                {" "}
-                Learn & gain expertise{" "}
+                
+                Learn & gain expertise
               </div>
             </div>
 
@@ -68,8 +67,8 @@ function CertificateSection() {
                 className="aspect-square w-[25px]"
               />
             <div className="text-[20px] font-medium font-Archivo-500 grow self-start mt-1.5">
-              {" "}
-              Get certification{" "}
+              
+              Get certification
             </div>
             </div>
 

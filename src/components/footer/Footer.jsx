@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
 
           <p className="font-Roboto font-[15.38] max-sm:font-[12] mt-8 text-base leading-6 text-white px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-          <div className="mt-9 text-lg font-bold leading-7 text-white px-2">Follow us{" "}</div>
+          <div className="mt-9 text-lg font-bold leading-7 text-white px-2">Follow us</div>
           <div className="flex gap-1.5 justify-between pr-16 mt-4 max-md:pr-5">
             <Telegram fontSize="large" className="text-white rounded-full bg-black p-1" />
             <WhatsApp fontSize="large" className="text-white rounded-3xl bg-black p-1" />

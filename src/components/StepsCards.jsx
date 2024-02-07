@@ -160,9 +160,9 @@ function StepsCards() {
             dragSize: 20,
           }}
           modules={[Scrollbar]}
-          autoplay={{   // Autoplay configuration
-            delay: 2500,  // Delay between transitions in milliseconds
-            disableOnInteraction: false  // Autoplay will not be disabled after user interactions
+          autoplay={{   
+            delay: 2500, 
+            disableOnInteraction: false 
           }}>
           <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
           <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>

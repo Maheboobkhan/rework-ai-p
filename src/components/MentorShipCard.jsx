@@ -29,16 +29,11 @@ function MentorshipCard() {
 
 
             loop={true}
-            // scrollbar={{
-            //   hide: false,
-            //   // dragSize: 20,
-            //   snapOnRelease: true,
-            // }}
             modules={[Scrollbar]}
             className="mySwiper"
-            autoplay={{   // Autoplay configuration
-              delay: 2500,  // Delay between transitions in milliseconds
-              disableOnInteraction: false  // Autoplay will not be disabled after user interactions
+            autoplay={{ 
+              delay: 2500, 
+              disableOnInteraction: false
             }}
 
             breakpoints={{
@@ -50,12 +45,12 @@ function MentorshipCard() {
                 slidesPerView: 1,
                 spaceBetween: 100,
               },
-              // when window width is >= 640px (sm)
+              
               640: {
                 slidesPerView: 1,
                 spaceBetween: 100,
               },
-              // when window width is >= 768px (md)
+              
               768: {
                 slidesPerView: 2,
                 spaceBetween: 100,
@@ -72,7 +67,7 @@ function MentorshipCard() {
                 slidesPerView: 4,
                 spaceBetween: 20,
               },
-              // Add more breakpoints as needed
+              
             }}
           >
             {/* card-1 */}
@@ -178,9 +173,9 @@ function MentorshipCard() {
               dragSize: 20,
             }}
             modules={[Scrollbar]}
-            autoplay={{   // Autoplay configuration
-              delay: 2500,  // Delay between transitions in milliseconds
-              disableOnInteraction: false  // Autoplay will not be disabled after user interactions
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
             }}>
             <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
             <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
