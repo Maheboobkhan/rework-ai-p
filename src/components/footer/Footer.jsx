@@ -21,10 +21,10 @@ const Footer = () => {
         <div className="flex flex-col basis-0">
           <h1 className="flex justify-between text-3xl font-extrabold text-center whitespace-nowrap">
             <span className="grow text-teal-600">Talent</span>
-            <span className="flex-auto text-white text-opacity-90">Finder</span>
+            <span className="flex-auto sm:text-white text-opacity-90">Finder</span>
           </h1>
-          <p className="mt-8 text-base leading-6 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-          <div className="mt-9 text-lg font-bold leading-7 text-white">Follow us{" "}</div>
+          <p className="mt-8 text-base leading-6 text-white px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+          <div className="mt-9 text-lg font-bold leading-7 text-white px-2">Follow us{" "}</div>
           <div className="flex gap-1.5 justify-between pr-16 mt-4 max-md:pr-5">
             <Telegram fontSize="large" className="text-white  rounded-full" />
             <WhatsApp fontSize="large" className="text-white rounded-full" />

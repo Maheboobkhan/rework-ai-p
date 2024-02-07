@@ -24,7 +24,7 @@ const FaqItem = ({ question, answer }) => {
                     </div>
                     <div>
                         <span
-                            className={`flex h-9 w-9 items-center justify-center rounded-full ${isOpen ? 'shadow-md text-white' : 'bg-transparent text-white'} group-hover:shadow-md group-hover:text-white transition duration-200 max-sm:text-black`}
+                            className={`flex h-9 w-9 items-center justify-center rounded-full ${isOpen ? 'shadow-md text-white' : 'bg-transparent text-white'} group-hover:shadow-md md:group-hover:text-white transition duration-200 max-sm:text-black`}
                         >
                             {isOpen ? '-' : '+'}
                         </span>

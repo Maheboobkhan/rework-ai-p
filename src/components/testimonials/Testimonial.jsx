@@ -1,8 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useState } from 'react'
 import TestimonialCard from './testimonial-card/TestimonialCard'
 import test1 from '../../assets/test1.svg'
 import test2 from '../../assets/test2.svg'
 import test3 from '../../assets/test3.svg'
+import { Carousel } from '@material-tailwind/react'
 
 const testimonials = [
     {
@@ -44,12 +45,33 @@ const testimonials = [
 
 ];
 
-const Testimonial = () => {
+// Navigation function
+const CustomCarouselNavigation = ({ setActiveIndex, activeIndex, length }) => (
+    <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+        {new Array(length).fill("").map((_, i) => (
+            <span
+                key={i}
+                className={`block h-1 cursor-pointer rounded-2xl transition-all ${activeIndex === i ? "w-8 bg-violet-600" : "w-4 bg-violet-600/50"
+                    }`}
+                onClick={() => setActiveIndex(i)}
+            />
+        ))}
+    </div>
+);
 
-    const isMobileDevice = () => {
-        console.log("Mobile Device")
-        return window.innerWidth >= 640;
-    }
+const Testimonial = () => {
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    const handleIndexChange = (index) => {
+        // Check if the index is out of bounds
+        if (index < 0) {
+            setActiveIndex(0);
+        } else if (index >= length) {
+            setActiveIndex(0); // Reset to the first index when reaching the end
+        } else {
+            setActiveIndex(index);
+        }
+    };
 
     return (
         <div className='w-screen'>
@@ -66,8 +88,9 @@ const Testimonial = () => {
 
             {/* TESTIMONIALs */}
             <div className="self-stretch mt-16 max-md:mt-10">
+                {/* For Large screens */}
                 <div
-                    className='grid md:grid-cols-3 gap-5 overflow-x-auto flex-col self-stretch mt-5 max-md:flex max-md:flex-col max-md:max-sm:flex max-sm:overflow-auto max-sm:flex-row max-sm:self-center max-sm:w-screen max-sm:grid-col max-sm:ml-[calc(50%_-_50vw)] mx-auto'
+                    className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 overflow-x-auto flex-col self-stretch mt-5 max-md:flex max-md:flex-col mx-auto max-sm:hidden'
                 >
                     {testimonials.map((testimonial, index) => (
                         <div key={index} className='max-sm:text-center hover:shadow-xl hover:shadow-slate-500'>
@@ -80,6 +103,27 @@ const Testimonial = () => {
                         </div>
                     ))}
                 </div>
+
+                {/* For Small screens */}
+                <Carousel
+                    className="rounded-xl sm:hidden"
+                    autoplay={true}
+                    autoplayInterval={100}
+                    navigation={(props) => <CustomCarouselNavigation {...props} />}
+                    activeIndex={activeIndex}
+                    onChange={handleIndexChange}
+                >
+                    {testimonials.map((testimonial, index) => (
+                        <div key={index} className='w-screen hover:shadow-xl hover:shadow-slate-500'>
+                            <TestimonialCard
+                                content={testimonial.content}
+                                author={testimonial.author}
+                                role={testimonial.role}
+                                imageSrc={testimonial.imageSrc}
+                            />
+                        </div>
+                    ))}
+                </Carousel>
             </div>
 
 

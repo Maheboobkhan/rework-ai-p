@@ -73,7 +73,7 @@ const FAQSection = () => {
             </div>
 
             {/* FAQ question answers */}
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-2 mt-8">
+            <div className="w-screen grid md:grid-cols-2 grid-cols-1 gap-2 mt-8">
                 {FaqQuestions.map((faq) => (
                     <div key={faq.qid}>
                         <FaqItem question={faq.question} answer={faq.answer} />
@@ -82,7 +82,7 @@ const FAQSection = () => {
             </div>
 
             {/* Know More button */}
-            <button onClick={handleOnsubmit} className="justify-center px-8 py-4 mt-24 text-lg text-center text-violet-800 whitespace-nowrap rounded-xl border-2 border-violet-800 border-solid shadow-2xl bg-neutral-100 max-md:px-5 max-md:mt-10 hover:bg-slate-300 sm:hover:bg-purple-950 hover:text-white">
+            <button onClick={handleOnsubmit} className="justify-center px-8 py-4 mt-24 text-lg text-center text-violet-800 whitespace-nowrap rounded-xl border-2 border-violet-800 border-solid shadow-2xl bg-neutral-100 max-md:px-5 max-md:mt-10 hover:bg-purple-950 hover:text-white">
                 Know More
             </button>
         </div>
