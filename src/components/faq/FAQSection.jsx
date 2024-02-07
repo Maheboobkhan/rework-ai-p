@@ -61,19 +61,19 @@ const FAQSection = () => {
     }
     return (
         <div className="flex flex-col items-center px-20 py-12 max-md:px-5">
-            <div className="justify-center p-2.5 ml-6 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50 max-sm:text-black">
+            <div className="font-Archivo justify-center p-2.5 ml-6 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50 max-sm:text-black">
                 Our Happy Customers
             </div>
-            <div className="mt-5 ml-6 text-5xl font-bold text-white capitalize max-md:text-4xl max-sm:text-black">
+            <div className="font-archivo mt-5 ml-6 text-5xl font-bold text-white capitalize max-md:text-4xl max-sm:text-black">
                 FAQ
             </div>
-            <div className="mt-2 ml-6 text-lg text-center text-white capitalize w-[496px] max-md:max-w-full max-sm:text-black">
+            <div className="font-Archivo mt-2 ml-6 text-lg text-center text-white capitalize w-[496px] max-md:max-w-full max-sm:text-black">
                 checkout the reviews from our mentees about how there experience was
                 with us. and what not
             </div>
 
             {/* FAQ question answers */}
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-2 mt-8">
+            <div className="w-screen grid md:grid-cols-2 grid-cols-1 gap-2 mt-8">
                 {FaqQuestions.map((faq) => (
                     <div key={faq.qid}>
                         <FaqItem question={faq.question} answer={faq.answer} />
@@ -82,7 +82,7 @@ const FAQSection = () => {
             </div>
 
             {/* Know More button */}
-            <button onClick={handleOnsubmit} className="justify-center px-8 py-4 mt-24 text-lg text-center text-violet-800 whitespace-nowrap rounded-xl border-2 border-violet-800 border-solid shadow-2xl bg-neutral-100 max-md:px-5 max-md:mt-10 hover:bg-slate-300 sm:hover:bg-purple-950 hover:text-white">
+            <button onClick={handleOnsubmit} className="font-Poppins justify-center px-8 py-4 mt-24 text-lg text-center text-violet-800 whitespace-nowrap rounded-xl border-2 border-violet-800 border-solid shadow-2xl bg-neutral-100 max-md:px-5 max-md:mt-10 hover:bg-purple-950 hover:text-white">
                 Know More
             </button>
         </div>
