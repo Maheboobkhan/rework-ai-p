@@ -90,10 +90,10 @@ const Testimonial = () => {
             <div className="self-stretch mt-16 max-md:mt-10">
                 {/* For Large screens */}
                 <div
-                    className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 overflow-x-auto flex-col self-stretch mt-5 max-md:flex max-md:flex-col mx-auto max-sm:hidden'
+                    className='grid lg:grid-cols-3 md:grid-cols-2 gap-4 overflow-x-hidden flex-col mt-5'
                 >
                     {testimonials.map((testimonial, index) => (
-                        <div key={index} className='max-sm:text-center hover:shadow-xl hover:shadow-slate-500'>
+                        <div key={index} className='hover:scale-95 cursor-pointer'>
                             <TestimonialCard
                                 content={testimonial.content}
                                 author={testimonial.author}
