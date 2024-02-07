@@ -19,12 +19,6 @@ export default {
         Roboto: ['Roboto', 'sans-serif'],
         Inter: ['Inter', 'sans-serif'],
         SpaceGrotesk: ['Space Grotesk', 'sans-serif'],
-        Archivo: ['Archivo', 'sans-serif'],
-        Raleway: ['Raleway', 'sans-serif'],
-        Roboto: ['Roboto', 'sans-serif'],
-        Poppins: ['Poppins', 'sans-serif'],
-        Inter: ['Inter', 'sans-serif'],
-        Poppins: ['Poppins', 'sans-serif'],
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
