@@ -5,7 +5,6 @@ export default {
     extend: {
       fontFamily: {
         Caveat: ['Caveat', 'cursive'],
-<<<<<<< HEAD
         Raleway: ['Raleway', 'sans-serif'],
         Poppins: ['Poppins', 'sans-serif'],
         Archivo: {
@@ -20,14 +19,12 @@ export default {
         Roboto: ['Roboto', 'sans-serif'],
         Inter: ['Inter', 'sans-serif'],
         SpaceGrotesk: ['Space Grotesk', 'sans-serif'],
-=======
         Archivo: ['Archivo', 'sans-serif'],
         Raleway: ['Raleway', 'sans-serif'],
         Roboto: ['Roboto', 'sans-serif'],
         Poppins: ['Poppins', 'sans-serif'],
         Inter: ['Inter', 'sans-serif'],
         Poppins: ['Poppins', 'sans-serif'],
->>>>>>> 8e985f3b4ce535132a8e42c439e53f9c854d335e
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
