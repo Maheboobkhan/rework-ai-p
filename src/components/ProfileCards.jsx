@@ -15,10 +15,10 @@ function ProfileCards() {
   SwiperCore.use([Scrollbar, Autoplay]);
   return (
     <div className="flex flex-col items-center py-12 bg-slate-50">
-      <div className="justify-center p-2.5 mt-7 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50">
+      <div className="font-Archivo-400 justify-center p-2.5 mt-7 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50">
         Who will Guide you
       </div>
-      <div className="mt-5 text-5xl font-semibold text-center leading-[62px] text-neutral-800 w-[747px] max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
+      <div className="mt-5 text-5xl font-semibold font-Archivo-600 text-center leading-[62px] text-neutral-800 w-[747px] max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
         Elevate Your Journey with Expert Guidance{" "}
       </div>
       <MentorShipParagraph />
@@ -80,9 +80,9 @@ function ProfileCards() {
                     className="bg-[#CE08FF] rounded-tl-xl"
                   />{" "}
                   <div className="flex gap-5 justify-between px-0.5 mt-2 w-full text-black capitalize leading-[150%]">
-                    <div className="text-xl font-bold">Maria Lee</div>
+                    <div className="text-xl font-bold font-Lato">Maria Lee</div>
 
-                    <div className="flex gap-1.5 justify-end my-auto text-lg font-medium whitespace-nowrap">
+                    <div className="flex gap-1.5 justify-end my-auto text-lg font-Roboto-900 font-medium whitespace-nowrap">
                       <img
                         loading="lazy"
                         src="/images/rating.svg"
@@ -91,10 +91,10 @@ function ProfileCards() {
                       <div>4.8</div>
                     </div>
                   </div>{" "}
-                  <div className="mt-1.5 text-sm leading-5 capitalize text-black text-opacity-60">
+                  <div className="mt-1.5 text-sm font-Roboto leading-5 capitalize text-black text-opacity-60">
                     Ui/Ux Designer
                   </div>{" "}
-                  <div className="mt-3 text-base leading-6 text-neutral-900 text-opacity-90">
+                  <div className="font-Roboto mt-3 text-base leading-6 text-neutral-900 text-opacity-90">
                     Specialised in designing and maintaining advanced web
                     applicationsSpecialised in designing and maintaining advanced
                     .Specialised in designing and maintaining advanced web
@@ -115,7 +115,7 @@ function ProfileCards() {
                         className="rounded-full aspect-[0.94] w-[34px]"
                       />
                     </div>
-                    <div className="flex-auto my-auto text-sm font-medium leading-5 capitalize text-black text-opacity-60">
+                    <div className="font-Roboto flex-auto my-auto text-sm font-medium leading-5 capitalize text-black text-opacity-60">
                       200+ students Trained
                     </div>
                   </div>
@@ -133,8 +133,8 @@ function ProfileCards() {
                     className="w-full aspect-[1.69] bg-amber-300 rounded-tl-xl"
                   />{" "}
                   <div className="flex gap-5 justify-between pr-2 mt-2 w-full text-black capitalize leading-[150%]">
-                    <div className="text-xl font-bold">Maria Lee</div>{" "}
-                    <div className="flex gap-1.5 justify-end my-auto text-lg font-medium whitespace-nowrap">
+                    <div className="text-xl font-bold font-Lato">Maria Lee</div>{" "}
+                    <div className="flex gap-1.5 justify-end my-auto text-lg font-Roboto-900 font-medium whitespace-nowrap">
                       <img
                         loading="lazy"
                         src="/images/rating.svg"
@@ -143,10 +143,10 @@ function ProfileCards() {
                       <div>4.8</div>
                     </div>
                   </div>{" "}
-                  <div className="mt-1.5 text-sm leading-5 capitalize text-black text-opacity-60">
+                  <div className="font-Roboto mt-1.5 text-sm leading-5 capitalize text-black text-opacity-60">
                     Ui/Ux Designer
                   </div>{" "}
-                  <div className="mt-3 text-base leading-6 text-neutral-900 text-opacity-90">
+                  <div className="font-Roboto mt-3 text-base leading-6 text-neutral-900 text-opacity-90">
                     Specialised in designing and maintaining advanced web
                     applicationsSpecialised in designing and maintaining advanced
                     .Specialised in designing and maintaining advanced web
@@ -167,7 +167,7 @@ function ProfileCards() {
                         className="w-9 rounded-full aspect-square"
                       />
                     </div>{" "}
-                    <div className="flex-auto my-auto text-sm font-medium leading-5 capitalize text-black text-opacity-60">
+                    <div className="font-Roboto flex-auto my-auto text-sm font-medium leading-5 capitalize text-black text-opacity-60">
                       200+ students Trained
                     </div>
                   </div>
@@ -185,8 +185,8 @@ function ProfileCards() {
                     className="w-full aspect-[1.69] rounded-tl-xl bg-[#E3E3E3]"
                   />{" "}
                   <div className="flex gap-5 justify-between pr-2 mt-2 w-full text-black capitalize leading-[150%]">
-                    <div className="text-xl font-bold">Maria Lee</div>{" "}
-                    <div className="flex gap-1.5 justify-end my-auto text-lg font-medium whitespace-nowrap">
+                    <div className="text-xl font-bold font-Lato">Maria Lee</div>{" "}
+                    <div className="flex gap-1.5 justify-end my-auto text-lg font-Roboto-900 font-medium whitespace-nowrap">
                       <img
                         loading="lazy"
                         src="/images/rating.svg"
@@ -195,10 +195,10 @@ function ProfileCards() {
                       <div>4.8</div>
                     </div>
                   </div>{" "}
-                  <div className="mt-1.5 text-sm leading-5 capitalize text-black text-opacity-60">
+                  <div className="font-Roboto mt-1.5 text-sm leading-5 capitalize text-black text-opacity-60">
                     Ui/Ux Designer
                   </div>{" "}
-                  <div className="mt-3 text-base leading-6 text-neutral-900 text-opacity-90">
+                  <div className="font-Roboto mt-3 text-base leading-6 text-neutral-900 text-opacity-90">
                     Specialised in designing and maintaining advanced web
                     applicationsSpecialised in designing and maintaining advanced
                     .Specialised in designing and maintaining advanced web
@@ -219,7 +219,7 @@ function ProfileCards() {
                         className="w-9 rounded-full aspect-square"
                       />
                     </div>{" "}
-                    <div className="flex-auto my-auto text-sm font-medium leading-5 capitalize text-black text-opacity-60">
+                    <div className="font-Roboto flex-auto my-auto text-sm font-medium leading-5 capitalize text-black text-opacity-60">
                       200+ students Trained
                     </div>
                   </div>
@@ -237,9 +237,9 @@ function ProfileCards() {
                     className="bg-[#CE08FF] rounded-tl-xl"
                   />{" "}
                   <div className="flex gap-5 justify-between px-0.5 mt-2 w-full text-black capitalize leading-[150%]">
-                    <div className="text-xl font-bold">Maria Lee</div>
+                    <div className="text-xl font-bold font-Lato">Maria Lee</div>
 
-                    <div className="flex gap-1.5 justify-end my-auto text-lg font-medium whitespace-nowrap">
+                    <div className="flex gap-1.5 justify-end my-auto text-lg font-Roboto-900 font-medium whitespace-nowrap">
                       <img
                         loading="lazy"
                         src="/images/rating.svg"
@@ -248,10 +248,10 @@ function ProfileCards() {
                       <div>4.8</div>
                     </div>
                   </div>{" "}
-                  <div className="mt-1.5 text-sm leading-5 capitalize text-black text-opacity-60">
+                  <div className="font-Roboto mt-1.5 text-sm leading-5 capitalize text-black text-opacity-60">
                     Ui/Ux Designer
                   </div>{" "}
-                  <div className="mt-3 text-base leading-6 text-neutral-900 text-opacity-90">
+                  <div className="font-Roboto mt-3 text-base leading-6 text-neutral-900 text-opacity-90">
                     Specialised in designing and maintaining advanced web
                     applicationsSpecialised in designing and maintaining advanced
                     .Specialised in designing and maintaining advanced web
@@ -272,7 +272,7 @@ function ProfileCards() {
                         className="rounded-full aspect-[0.94] w-[34px]"
                       />
                     </div>
-                    <div className="flex-auto my-auto text-sm font-medium leading-5 capitalize text-black text-opacity-60">
+                    <div className="font-Roboto flex-auto my-auto text-sm font-medium leading-5 capitalize text-black text-opacity-60">
                       200+ students Trained
                     </div>
                   </div>

@@ -97,8 +97,8 @@ const Navbar = () => {
     <nav className={`px-4 ${isNavbarFixed ? 'fixed top-0 left-0 z-50 w-full bg-white' : 'relative bg-white'}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white mt-4 leading-4">
-          <span className="grow text-violet-800 text-[35px] font-bold">Talent</span>
-          <span className="grow text-black text-[35px] font-bold ml-1">Finder</span>
+          <span className="grow text-violet-800 text-[35px] font-bold font-Raleway">Talent</span>
+          <span className="grow text-black text-[35px] font-bold ml-1 font-Raleway">Finder</span>
           <p className='font-Caveat font-semibold text-[#252009] italic text-end mr-6'>by rework</p>
         </div>
 
@@ -117,25 +117,25 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden md:flex lg:gap-x-12 md:gap-x-2 space-x-4 mb-2">
-          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold">Home</a></li>
-          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold">About</a></li>
-          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold">Services</a></li>
-          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold">Products</a></li>
-          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold">Blog</a></li>
+          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold font-Poppins">Home</a></li>
+          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold font-Poppins">About</a></li>
+          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold font-Poppins">Services</a></li>
+          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold font-Poppins">Products</a></li>
+          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold font-Poppins">Blog</a></li>
         </ul>
 
         <div className="hidden md:block mt-3">
-          <button className="text-white whitespace-nowrap bg-violet-800 rounded-xl max-md:px-5 max-md:mt-10 px-7 py-2.5 font-bold mb-5 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">Contact Us</button>
+          <button className="text-white whitespace-nowrap bg-violet-800 rounded-xl max-md:px-5 max-md:mt-10 px-7 py-2.5 font-bold mb-5 hover:bg-violet-200 font-Archivo-700 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">Contact Us</button>
         </div>
       </div>
 
       <div className={`md:hidden absolute top-15 right-0 min-h-screen z-50 w-2/3 bg-[#F7F7FF] transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform ease-in-out duration-300`}>
         <ul className="flex flex-col items-center gap-y-20 space-y-4 py-2">
-          <li className='mt-20'><a href="#" className="text-black text-[25px] hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800">Home</a></li>
-          <li className='mt-20'><a href="#" className="text-black text-[25px] hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800">About</a></li>
-          <li className='mt-20'><a href="#" className="text-black text-[25px] hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800">Services</a></li>
-          <li className='mt-20'><a href="#" className="text-black text-[25px] hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800">Products</a></li>
-          <li className='mt-20'><a href="#" className="text-black text-[25px] hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800">Blog</a></li>
+          <li className='mt-20'><a href="#" className="text-black text-[25px] hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-Poppins">Home</a></li>
+          <li className='mt-20'><a href="#" className="text-black text-[25px] hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-Poppins">About</a></li>
+          <li className='mt-20'><a href="#" className="text-black text-[25px] hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-Poppins">Services</a></li>
+          <li className='mt-20'><a href="#" className="text-black text-[25px] hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-Poppins">Products</a></li>
+          <li className='mt-20'><a href="#" className="text-black text-[25px] hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-Poppins">Blog</a></li>
         </ul>
       </div>
     </nav>

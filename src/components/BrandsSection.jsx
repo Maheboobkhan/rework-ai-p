@@ -7,7 +7,7 @@ function BrandsSection() {
       aria-label="Landing Component"
       role="banner"
     >
-      <div className="max-md:max-w-full">
+      <div className="max-md:max-w-full font-Archivo-500">
         Let us pave your path to top-tier companies including
       </div>
       <div
