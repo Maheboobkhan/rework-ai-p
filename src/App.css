@@ -1,11 +1,9 @@
-
-
 .testimonial-carousel {
     display: flex;
     overflow-x: auto;
     gap: 5px;
     scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch; 
+    -webkit-overflow-scrolling: touch;
 }
 
 .testimonial-card {
@@ -18,7 +16,7 @@
 @media (max-width: 767px) {
     .testimonial-carousel {
         scroll-behavior: smooth;
-        width: calc(100% + 10px); 
+        width: calc(100% + 10px);
         margin-left: -5px;
     }
 

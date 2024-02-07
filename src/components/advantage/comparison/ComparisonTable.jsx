@@ -82,13 +82,13 @@ const ComparisonTable = () => {
           <tr>
             {TABLE_HEAD.map((head) => (
               <th key={head}
-                className={`border-blue-600 
+                className={`font-Archivo border-blue-600 
               ${head === "Feature" ? 'text-violet-800 bg-neutral-100' : 'bg-violet-800 text-neutral-100'}  p-4`}>
                 {/** changed class format*/}
                 <Typography
                   variant="small"
                   color="blue-gray"
-                  className="font-normal leading-none opacity-70"
+                  className="font-[22] text-center leading-none opacity-70"
                 >
                   {head}
                 </Typography>
@@ -103,22 +103,22 @@ const ComparisonTable = () => {
 
             return (
               <tr key={feature}>
-                <td className='p-4 grow bg-violet-800 text-neutral-100'>
+                <td className='font-Archivo p-4 grow bg-violet-800 text-neutral-100'>
                   {/** changed class */}
-                  <Typography variant="small" color="blue-gray" className="font-normal">
+                  <Typography variant="small" color="blue-gray" className="font-[22]">
                     {feature}
                   </Typography>
                 </td>
-                <td className='p-4 bg-blue-gray-50/50'>
+                <td className='font-Poppins p-4 bg-blue-gray-50/50'>
                   {/** changed class */}
-                  <Typography variant="small" color="blue-gray" className="font-normal">
+                  <Typography variant="small" color="blue-gray" className="font-[20] md:flex max-sm:text-center">
                     <img src={aiInterview.icon} alt="correct" className="w-4 h-4 m-auto" />
                     {aiInterview.content}
                   </Typography>
                 </td>
-                <td className='p-4'>
+                <td className='font-Poppins p-4'>
                   {/** changed class */}
-                  <Typography variant="small" color="blue-gray" className="font-normal">
+                  <Typography variant="small" color="blue-gray" className="font-[20] md:flex max-sm:text-center">
                     <img src={physicalInterview.icon} alt="wrong" className="w-4 h-4 m-auto" />
                     {physicalInterview.content}
                   </Typography>

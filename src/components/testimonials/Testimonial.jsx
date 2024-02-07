@@ -75,14 +75,14 @@ const Testimonial = () => {
 
     return (
         <div className='w-screen'>
-            <div className="justify-center w-fit p-2.5 mt-3 mx-auto text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700">
+            <div className="font-Archivo justify-center w-fit p-2.5 mt-3 mx-auto text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700">
                 Our Happy Customers
             </div>
-            <div className="mt-5 ml-5 text-5xl font-bold text-center text-black capitalize max-md:max-w-full max-md:text-4xl">
+            <div className="font-Archivo mt-5 ml-5 text-5xl font-bold text-center text-black capitalize max-md:max-w-full max-md:text-4xl">
                 Success Stories:
                 <br /> Real Mentees, Real Results
             </div>
-            <div className="w-screen mt-2 text-lg px-4 text-center text-black">
+            <div className="font-Archivo w-screen mt-2 text-lg px-4 text-center text-black">
                 Checkout the reviews from our mentees about how their experience was with us.
             </div>
 

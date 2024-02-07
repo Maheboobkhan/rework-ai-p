@@ -7,7 +7,7 @@ const MentorshipProgram = () => {
     };
 
     return (
-        <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md my-4">
+        <div className="font-Archivo flex gap-5 max-md:flex-col max-md:gap-0 max-md my-4">
             <div className="flex flex-col w-[55%] max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col self-stretch my-auto font-medium max-md:mt-10 max-md:max-w-full">
                     <h1 className="text-4xl text-black leading-[52px] max-md:max-w-full">
@@ -30,7 +30,7 @@ const MentorshipProgram = () => {
                     </button>
                 </div>
             </div>
-            <div className="flex flex-col w-full bg-white relative max-sm:hidden">
+            <div className="flex flex-col w-full bg-white max-sm:hidden">
                 <img
                     className="bg-white h-screen"
                     loading="lazy"

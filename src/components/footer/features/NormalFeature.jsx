@@ -21,12 +21,12 @@ const normalData = [
 
 const NormalFeature = () => {
     return (
-        <div className="flex gap-5 max-md:flex-row">
+        <div className="flex gap-5 lg:gap-12 max-md:flex-row">
             {normalData.map((section, index) => (
                 <div key={index} className="flex flex-col text-white">
-                    <div className="text-lg font-bold">{section.title}</div>
+                    <div className="font-Inter text-lg font-bold">{section.title}</div>
                     {section.items.map((item, itemIndex) => (
-                        <div key={itemIndex} className="mt-4 hover:underline text-sm">
+                        <div key={itemIndex} className="font-Inter font-[14] mt-4 hover:underline text-sm">
                             {item}
                         </div>
                     ))}
