@@ -10,7 +10,7 @@ const Invest = () => {
                 Our mentorship program comes with a reasonable investment tailored to
                 ensure you receive the best value for your career advancement.
             </div>
-            <div className="justify-center px-7 py-1.5 mt-6 text-sm font-medium leading-7 text-white capitalize whitespace-nowrap bg-violet-800 rounded-xl">
+            <div className="justify-center px-7 py-1.5 mt-6 text-sm font-medium leading-7 border-2 text-white capitalize whitespace-nowrap bg-violet-800 rounded-xl hover:bg-white hover:text-violet-800 hover:border-violet-800">
                 Apply now
             </div>
         </div>
