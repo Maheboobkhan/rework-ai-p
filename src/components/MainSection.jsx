@@ -3,10 +3,10 @@ import NavbarButton from "./NavbarButton";
 
 function MainSection() {
   return (
-    <main className="z-10 self-center mt-0 w-full max-w-[1920px] max-md:max-w-full">
+    <main className="z-10 self-center mt-14 w-full max-w-[1920px] max-md:max-w-full">
       <section className="flex gap-5 max-md:flex-col max-md:gap-0">
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-          <div className="flex z-10 flex-col self-stretch px-5 my-auto text-black max-md:mt-10 max-md:max-w-full">
+          <div className="flex z-10 flex-col self-stretch md:pl-20 sm:px-5 px-5 my-auto text-black max-md:mt-10 max-md:max-w-full">
             <div className="text-6xl leading-[69px] max-md:max-w-full max-md:text-4xl max-md:leading-10 md:text-left sm:text-left text-center">
               <span className="font-Archivo-400">Unlock Your Career </span>
               <span className="font-Archivo-400"> Potential with </span>
@@ -16,10 +16,10 @@ function MainSection() {
               Elevate your career journey with personalized mentorship from
               industry experts. 🚀
             </p>
-            <button className="justify-center font-Archivo-700 self-start px-7 py-2.5 mt-14 text-lg leading-7 text-white whitespace-nowrap bg-violet-800 rounded-xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms; md:mx-0 sm:mx-0 mx-auto">
+            <button className="justify-center font-Archivo-700 self-start hover:border-2 hover:border-violet-800 px-7 py-2.5 mt-14 text-lg leading-7 text-white whitespace-nowrap bg-violet-800 max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms; md:mx-0 sm:mx-0 mx-auto">
               Book a trial
             </button>
-            <div className="flex flex-col sm:flex sm:flex-row md:flex md:flex-row md:gap-5 gap-2 sm:gap-5 justify-between items-center md:self-start sm:self-start mt-6 text-lg text-center text-indigo-400 whitespace-nowrap mt-2">
+            <div className="flex flex-col sm:flex sm:flex-row md:flex md:flex-row md:gap-5 gap-2 sm:gap-5 justify-between items-center md:self-start sm:self-start mt-6 text-lg text-center text-indigo-400 whitespace-nowrap">
               <div className="flex gap-1.5 justify-between items-center">
                 <img
                   loading="lazy"

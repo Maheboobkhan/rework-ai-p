@@ -80,7 +80,7 @@ function CertificateSection() {
               />
               <div className="text-[20px] font-medium font-Archivo-500 grow my-auto">Stand out in your field </div>
             </div>
-            <div className="w-fit flex gap-4 justify-center px-8 py-4 mt-4 ml-2 text-lg text-center whitespace-nowrap bg-violet-800 rounded-xl border-2 border-violet-800 border-solid shadow-2xl text-neutral-50 max-md:px-5 max-md:ml-2.5 hover:bg-violet-400 hover:text-violet-900 cursor-pointer transition-all transition-duration: 400ms;">
+            <div className="w-fit flex gap-4 justify-center px-8 py-4 mt-4 ml-2 text-lg text-center whitespace-nowrap bg-violet-800 border-2 border-violet-800 border-solid shadow-2xl text-neutral-50 max-md:px-5 max-md:ml-2.5 hover:bg-violet-400 hover:text-violet-900 cursor-pointer transition-all transition-duration: 400ms;">
               <div className="font-Poppins-500 my-auto">Get Certified</div>
               <img
                 loading="lazy"
@@ -89,7 +89,7 @@ function CertificateSection() {
               />
             </div>
           </div>
-          <div className="flex flex-col ml-5 w-[36%] max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
+          <div className="hidden md:flex flex-col ml-5 w-[36%] max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
             <img
               loading="lazy"
               srcSet="/images/certificate.svg"

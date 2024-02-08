@@ -3,7 +3,7 @@ import React from "react";
 function BrandsSection() {
   return (
     <header
-      className="flex flex-col items-center px-5 pt-8 pb-3 text-lg font-medium text-center bg-white text-black text-opacity-90"
+      className="flex flex-col items-center px-5 pt-12 pb-3 text-lg font-medium text-center bg-white text-black text-opacity-90"
       aria-label="Landing Component"
       role="banner"
     >
@@ -19,54 +19,54 @@ function BrandsSection() {
                   })"
         className="w-full inline-flex flex-nowrap mt-5"
       >
-        <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-          <li>
-            <img src="/images/google.svg" alt="google" />
+        <ul class="flex items-center justify-center md:justify-start [&_img]:max-w-none animate-infinite-scroll">
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/google1.svg" alt="google" />
           </li>
-          <li>
-            <img src="/images/ibm.svg" alt="ibm" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/ibm1.svg" alt="ibm" />
           </li>
-          <li>
-            <img src="/images/apple.svg" alt="apple" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/apple1.svg" alt="apple" />
           </li>
-          <li>
-            <img src="/images/amazon.svg" alt="amazon" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/amazon1.svg" alt="amazon" />
           </li>
-          <li>
-            <img src="/images/sony.svg" alt="sony" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/sony1.svg" alt="sony" />
           </li>
-          <li>
-            <img src="/images/microsoft.svg" alt="microsoft" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/microsoft1.svg" alt="microsoft" />
           </li>
 
-          <li>
-            <img src="/images/whirlpool.svg" alt="whirlpool" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/whirlpool1.svg" alt="whirlpool" />
           </li>
 
         </ul>
 
-        <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-          <li>
-            <img src="/images/google.svg" alt="google" />
+        <ul class="flex items-center justify-center md:justify-start [&_img]:max-w-none animate-infinite-scroll">
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/google1.svg" alt="google" />
           </li>
-          <li>
-            <img src="/images/ibm.svg" alt="ibm" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/ibm1.svg" alt="ibm" />
           </li>
-          <li>
-            <img src="/images/apple.svg" alt="apple" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/apple1.svg" alt="apple" />
           </li>
-          <li>
-            <img src="/images/amazon.svg" alt="amazon" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/amazon1.svg" alt="amazon" />
           </li>
-          <li>
-            <img src="/images/sony.svg" alt="sony" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/sony1.svg" alt="sony" />
           </li>
-          <li>
-            <img src="/images/microsoft.svg" alt="microsoft" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/microsoft1.svg" alt="microsoft" />
           </li>
 
-          <li>
-            <img src="/images/whirlpool.svg" alt="whirlpool" />
+          <li className="mx-[20px] sm:mx-[50px] md:mx-[50px]">
+            <img src="/images/whirlpool1.svg" alt="whirlpool" />
           </li>
 
         </ul>
