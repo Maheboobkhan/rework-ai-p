@@ -22,7 +22,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="flex flex-col items-center py-12">
+    <footer className="flex flex-col items-center p-12">
       <div className="flex gap-5 justify-between items-start px-5 mt-1.5 max-md:flex-wrap">
         {/* Talent Finder */}
         <div className="flex flex-col basis-0">
@@ -51,7 +51,7 @@ const Footer = () => {
             <div className="font-Inter self-start text-lg font-bold leading-7 text-white">
               Newsletter
             </div>
-            <form onSubmit={handleSubmit} className="flex justify-between text-base leading-6 mt-2">
+            <form onSubmit={handleSubmit} className="flex justify-between text-base leading-6 mt-2 gap-5">
               <input
                 type="email"
                 className="justify-center px-3.5 py-3 bg-white rounded-lg border border-solid shadow-sm text-neutral-500"

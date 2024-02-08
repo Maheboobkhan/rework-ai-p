@@ -8,7 +8,7 @@ const MentorshipProgram = () => {
 
     return (
         <div className="font-Archivo flex gap-5 max-md:flex-col max-md:gap-0 max-md my-4">
-            <div className="flex flex-col w-[55%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col w-[55%] max-md:ml-0 max-md:w-full max-sm:text-center">
                 <div className="flex flex-col self-stretch my-auto font-medium max-md:mt-10 max-md:max-w-full">
                     <h1 className="text-4xl text-black leading-[52px] max-md:max-w-full">
                         Limited slots available!
@@ -21,7 +21,7 @@ const MentorshipProgram = () => {
                         Limited slots available for our exclusive mentorship program.
                     </p>
                     <button
-                        className="justify-center self-start px-7 py-3 m-8 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 rounded-xl max-md:px-5 hover:bg-violet-900 hover:text-white"
+                        className="justify-center self-start px-7 py-3 m-8 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 rounded-xl max-md:px-5 hover:bg-violet-900 hover:text-white max-sm:mx-auto"
                         aria-label="Apply now"
                         type="submit"
                         onClick={handleClick}

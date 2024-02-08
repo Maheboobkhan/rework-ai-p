@@ -64,7 +64,7 @@ const FAQSection = () => {
             <div className="font-Archivo justify-center p-2.5 ml-6 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50 max-sm:text-black">
                 Our Happy Customers
             </div>
-            <div className="font-Archivo mt-5 ml-6 text-5xl font-bold text-white capitalize max-md:text-4xl max-sm:text-black">
+            <div className="font-Archivo mt-5 ml-6 text-5xl font-bold text-white capitalize max-md:text-4xl max-sm:text-black max-sm:font-Poppins">
                 FAQ
             </div>
             <div className="font-Archivo mt-2 ml-6 text-lg text-center text-white capitalize w-[496px] max-md:max-w-full max-sm:text-black">
