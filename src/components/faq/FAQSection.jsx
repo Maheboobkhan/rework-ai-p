@@ -61,13 +61,13 @@ const FAQSection = () => {
     }
     return (
         <div className="flex flex-col items-center px-20 py-12 max-md:px-5">
-            <div className="font-Archivo justify-center p-2.5 ml-6 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50 max-sm:text-black">
+            <div className="font-Archivo justify-center p-2.5 ml-6 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50 max-sm:text-xs">
                 Our Happy Customers
             </div>
-            <div className="font-Archivo mt-5 ml-6 text-5xl font-bold text-white capitalize max-md:text-4xl max-sm:text-black max-sm:font-Poppins">
+            <div className="font-Archivo mt-5 ml-6 text-5xl font-bold text-white capitalize max-md:text-4xl max-sm:text-black max-sm:font-Poppins max-sm:text-2xl">
                 FAQ
             </div>
-            <div className="font-Archivo mt-2 ml-6 text-lg text-center text-white capitalize w-[496px] max-md:max-w-full max-sm:text-black">
+            <div className="font-Archivo mt-2 ml-6 text-lg text-center text-white capitalize w-[496px] max-md:max-w-full max-sm:text-black max-sm:text-xs">
                 checkout the reviews from our mentees about how there experience was
                 with us. and what not
             </div>
@@ -82,7 +82,7 @@ const FAQSection = () => {
             </div>
 
             {/* Know More button */}
-            <button onClick={handleOnsubmit} className="font-Poppins justify-center px-8 py-4 mt-24 text-lg text-center text-violet-800 whitespace-nowrap rounded-xl border-2 border-violet-800 border-solid shadow-2xl bg-neutral-100 max-md:px-5 max-md:mt-10 hover:bg-purple-950 hover:text-white">
+            <button onClick={handleOnsubmit} className="font-Poppins justify-center px-8 py-4 mt-24 text-lg text-center text-violet-800 whitespace-nowrap rounded-xl border-2 border-violet-800 border-solid shadow-2xl bg-neutral-100 max-md:px-5 max-md:mt-10 hover:bg-purple-950 hover:text-white max-sm:text-sm">
                 Know More
             </button>
         </div>

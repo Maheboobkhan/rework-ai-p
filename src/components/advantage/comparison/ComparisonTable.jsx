@@ -76,7 +76,7 @@ const TABLE_ROWS = [
 
 const ComparisonTable = () => {
   return (
-    <Card className="h-full max-w-full">
+    <Card className="h-full w-full">
       <table className="w-full text-left">
         <thead>
           <tr>
@@ -103,7 +103,7 @@ const ComparisonTable = () => {
 
             return (
               <tr key={feature}>
-                <td className='font-Archivo p-4 grow bg-violet-800 text-neutral-100'>
+                <td className='font-Archivo p-4 grow bg-violet-800 text-neutral-100 max-sm:text-xs'>
                   {/** changed class */}
                   <Typography variant="small" color="blue-gray" className="font-[22px]">
                     {feature}
@@ -111,15 +111,15 @@ const ComparisonTable = () => {
                 </td>
                 <td className='font-Poppins p-4 bg-blue-gray-50/50'>
                   {/** changed class */}
-                  <Typography variant="small" color="blue-gray" className="font-[20px] md:flex max-sm:text-center">
-                    <img src={aiInterview.icon} alt="correct" className="w-4 h-4 m-auto" />
+                  <Typography variant="small" color="blue-gray" className="text-xl font-[20px] md:flex max-sm:text-center max-sm:text-xs">
+                    <img src={aiInterview.icon} alt="correct" className="w-6 h-6 m-4 max-sm:mx-auto" />
                     {aiInterview.content}
                   </Typography>
                 </td>
                 <td className='font-Poppins p-4'>
                   {/** changed class */}
-                  <Typography variant="small" color="blue-gray" className="font-[20px] md:flex max-sm:text-center">
-                    <img src={physicalInterview.icon} alt="wrong" className="w-4 h-4 m-auto" />
+                  <Typography variant="small" color="blue-gray" className="text-xl font-[20px] md:flex max-sm:text-center max-sm:text-xs">
+                    <img src={physicalInterview.icon} alt="wrong" className="w-6 h-6 m-4 max-sm:mx-auto" />
                     {physicalInterview.content}
                   </Typography>
                 </td>
