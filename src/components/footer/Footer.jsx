@@ -4,6 +4,11 @@ import NormalFeature from "./features/NormalFeature";
 import AccordianFeature from "./features/AccordianFeature";
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import telegram from '../../assets/telegram.png'
+import facebook from '../../assets/facebook.png'
+import whatsapp from '../../assets/whatsapp.png'
+import x from '../../assets/x.png'
+import instagram from '../../assets/instagram.png'
+import SocialMedia from "./features/SocialMedia";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -28,13 +33,8 @@ const Footer = () => {
           </div>
 
           <p className="font-Roboto font-[15.38px] max-sm:font-[12px] mt-8 text-base leading-6 text-white px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-          <div className="mt-9 text-lg font-bold leading-7 text-white px-2">Follow us</div>
-          <div className="flex gap-1.5 justify-between pr-16 mt-4 max-md:pr-5">
-            <Telegram fontSize="large" className="text-white rounded-full bg-black p-1" />
-            <WhatsApp fontSize="large" className="text-white rounded-3xl bg-black p-1" />
-            <X fontSize="large" className="text-white rounded-full bg-black p-1" />
-            <FacebookSharp fontSize="large" className="text-white  rounded-full bg-black p-1" />
-            <Instagram fontSize="large" className="text-white  rounded-full bg-black p-1" />
+          <div className="max-sm:hidden">
+            <SocialMedia />
           </div>
         </div>
 
@@ -68,6 +68,9 @@ const Footer = () => {
                 </button>
               </div>
             </form>
+          </div>
+          <div className="sm:hidden">
+            <SocialMedia />
           </div>
         </div>
       </div>
