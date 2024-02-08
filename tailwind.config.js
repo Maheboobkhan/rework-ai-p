@@ -14,6 +14,7 @@ export default {
           600: ['Archivo-600', 'sans-serif'],
           700: ['Archivo-700', 'sans-serif'],
         },
+        Archivo: ['Archivo', 'sans-serif'],
         Saira: ['Saira', 'sans-serif'],
         Lato: ['Lato', 'sans-serif'],
         Roboto: ['Roboto', 'sans-serif'],

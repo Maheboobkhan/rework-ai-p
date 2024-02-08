@@ -57,14 +57,14 @@ const AccordianFeature = () => {
                         id={`panel${section.id}-header`}
                         style={{ backgroundColor: 'rgb(107 33 168 / var(--tw-bg-opacity))', color: 'white' }}
                     >
-                        <Typography className='font-Inter font-[14]'>{section.title}</Typography>
+                        <Typography className='font-Inter font-[14px]'>{section.title}</Typography>
                     </AccordionSummary>
                     <AccordionDetails
                         style={{ backgroundColor: 'rgb(107 33 168 / var(--tw-bg-opacity))', color: 'white' }}
                     >
                         <Typography>
                             {section.content.map((item, index) => (
-                                <div key={index} className='hover:underline font-Inter font-[14]'>{item}</div>
+                                <div key={index} className='hover:underline font-Inter font-[14px]'>{item}</div>
                             ))}
                         </Typography>
                     </AccordionDetails>

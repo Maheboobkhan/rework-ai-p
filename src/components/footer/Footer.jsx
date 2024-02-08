@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FacebookSharp, Instagram, Telegram, WhatsApp, X } from "@mui/icons-material";
 import NormalFeature from "./features/NormalFeature";
 import AccordianFeature from "./features/AccordianFeature";
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import telegram from '../../assets/telegram.png'
 
 const Footer = () => {
@@ -23,10 +24,10 @@ const Footer = () => {
           <div className="text-3xl font-extrabold whitespace-nowrap">
             <span className="grow font-Raleway text-teal-600">Talent </span>
             <span className="grow font-Raleway sm:text-white text-opacity-90">Finder</span>
-            <p className='font-Caveat text-xs text-end mr-16 max-sm:mr-4 font-[14] max-sm:font[9.11] sm:text-white italic text-[C7C7C7] w-[101.42] h-[23.7]'>by rework</p>
+            <p className='font-Caveat text-xs text-end mr-16 max-sm:mr-4 font-[14px] max-sm:font-[9.11px] sm:text-white italic text-[C7C7C7] w-[101.42] h-[23.7]'>by rework</p>
           </div>
 
-          <p className="font-Roboto font-[15.38] max-sm:font-[12] mt-8 text-base leading-6 text-white px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+          <p className="font-Roboto font-[15.38px] max-sm:font-[12px] mt-8 text-base leading-6 text-white px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
           <div className="mt-9 text-lg font-bold leading-7 text-white px-2">Follow us</div>
           <div className="flex gap-1.5 justify-between pr-16 mt-4 max-md:pr-5">
             <Telegram fontSize="large" className="text-white rounded-full bg-black p-1" />
@@ -71,7 +72,7 @@ const Footer = () => {
         </div>
       </div>
       {/* COPY RIGHT */}
-      <div className="font-Poppins font-[14] sm:font-[12] mt-11 text-sm leading-5 whitespace-nowrap text-slate-400 max-md:mt-10">© 2022 TalentFinder. All rights reserved.</div>
+      <div className="font-Poppins font-[14px] sm:font-[12px] mt-11 text-sm leading-5 whitespace-nowrap text-slate-400 max-md:mt-10">© 2022 TalentFinder. All rights reserved.</div>
     </footer>
   );
 }

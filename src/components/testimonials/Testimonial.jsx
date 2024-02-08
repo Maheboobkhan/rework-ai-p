@@ -82,7 +82,7 @@ const Testimonial = () => {
                 Success Stories:
                 <br /> Real Mentees, Real Results
             </div>
-            <div className="font-Archivo w-screen mt-2 text-lg px-4 text-center text-black">
+            <div className="font-Archivo font-[18px] w-screen mt-2 text-lg px-4 text-center text-black">
                 Checkout the reviews from our mentees about how their experience was with us.
             </div>
 
@@ -90,7 +90,7 @@ const Testimonial = () => {
             <div className="self-stretch mt-16 max-md:mt-10">
                 {/* For Large screens */}
                 <div
-                    className='grid lg:grid-cols-3 md:grid-cols-2 gap-4 overflow-x-hidden flex-col mt-5 max-sm:hidden'
+                    className='grid lg:grid-cols-3 md:grid-cols-2 gap-10 overflow-x-hidden flex-col mt-5 max-sm:hidden'
                 >
                     {testimonials.map((testimonial, index) => (
                         <div key={index} className='hover:scale-95 cursor-pointer'>

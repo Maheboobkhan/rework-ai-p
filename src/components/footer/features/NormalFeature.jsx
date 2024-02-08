@@ -26,7 +26,7 @@ const NormalFeature = () => {
                 <div key={index} className="flex flex-col text-white">
                     <div className="font-Inter text-lg font-bold">{section.title}</div>
                     {section.items.map((item, itemIndex) => (
-                        <div key={itemIndex} className="font-Inter font-[14] mt-4 hover:underline text-sm">
+                        <div key={itemIndex} className="font-Inter font-[14px] mt-4 hover:underline text-sm">
                             {item}
                         </div>
                     ))}
