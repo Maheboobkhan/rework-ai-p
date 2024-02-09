@@ -3,7 +3,7 @@ import NavbarButton from "./NavbarButton";
 
 function MainSection() {
   return (
-    <main className="z-10 self-center mt-14 w-full max-w-[1920px] max-md:max-w-full">
+    <main className="z-10 self-center sm:mt-20 md:mt-20 w-full max-w-[1920px] max-md:max-w-full">
       <section className="flex gap-5 max-md:flex-col max-md:gap-0">
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex z-10 flex-col self-stretch md:pl-20 sm:px-5 px-5 my-auto text-black max-md:mt-10 max-md:max-w-full">

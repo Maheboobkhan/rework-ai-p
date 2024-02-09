@@ -75,10 +75,10 @@ const Testimonial = () => {
             <div className="self-stretch mt-16 max-md:mt-10">
                 {/* For Large screens */}
                 <div
-                    className='grid lg:grid-cols-3 md:grid-cols-2 gap-10 overflow-x-hidden flex-col mt-5 max-sm:hidden'
+                    className='grid lg:grid-cols-3 pl-14 pr-20 md:grid-cols-2 gap-10 overflow-x-hidden flex-col mt-5 max-sm:hidden'
                 >
                     {testimonials.map((testimonial, index) => (
-                        <div key={index} className='hover:scale-95 cursor-pointer'>
+                        <div key={index} className='hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration'>
                             <TestimonialCard
                                 content={testimonial.content}
                                 author={testimonial.author}
@@ -124,7 +124,7 @@ const Testimonial = () => {
                         }}
                     >
                         {testimonials.map((testimonial, index) => (
-                            <SwiperSlide key={index} className='w-screen hover:shadow-xl hover:shadow-slate-500'>
+                            <SwiperSlide key={index} className='hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration'>
                                 <TestimonialCard
                                     content={testimonial.content}
                                     author={testimonial.author}
