@@ -15,10 +15,10 @@ const FaqItem = ({ question, answer }) => {
                     onClick={handleToggle}
                 >
                     <div className="max-w-xl pr-5">
-                        <h3 className={`font-Poppins font-[18px] text-sm ${isOpen ? 'text-white shadow-md' : 'text-white'} max-sm:text-black max-sm:font-[14]`}>
+                        <h3 className={`font-Poppins font-[18px] text-sm ${isOpen ? 'text-white shadow-md' : 'text-white'} max-sm:text-black`}>
                             {question}
                         </h3>
-                        <p className={`font-Poppins font-[16px] ${isOpen ? 'block' : 'hidden'} mt-3 text-sm text-white max-sm:text-black max-sm:font-[12]`}>
+                        <p className={`font-Poppins font-[16px] ${isOpen ? 'block' : 'hidden'} mt-3 text-sm text-white max-sm:text-black`}>
                             {answer}
                         </p>
                     </div>
