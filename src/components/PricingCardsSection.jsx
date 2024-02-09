@@ -9,8 +9,7 @@ function PricingCardsSection() {
             Decided to join?
           </div>
           <div className="font-Archivo-600 mt-5 text-5xl font-semibold text-center text-black leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
-            We've got a plan <br />
-            that's perfect for you
+            We've got a plan that's perfect for you
           </div>
           <div className="mt-2 text-xl leading-5 text-center lowercase text-neutral-700 max-md:max-w-full">
             <span className="font-Archivo-400 capitalize">choose</span> a plan tailored to your
@@ -84,7 +83,7 @@ function PricingCardsSection() {
                     />
                     <div className="font-Poppins-400 grow">Custom reports</div>
                   </div>
-                  <div className="justify-center font-semibold items-center px-16 py-4 mt-16 text-lg text-center text-white whitespace-nowrap bg-violet-800 rounded-xl shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
+                  <div className="justify-center font-semibold items-center px-16 py-4 mt-16 text-lg text-center text-white whitespace-nowrap bg-violet-800 shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
                     Get Started
                   </div>
                 </div>
@@ -163,7 +162,7 @@ function PricingCardsSection() {
                     <div className="font-Poppins-400 flex-auto text-white">Custom reports</div>
                   </div>
                   
-                  <div className="justify-center items-center px-16 py-3.5 mt-20 text-lg mr-5 text-center text-violet-800 whitespace-nowrap bg-white rounded-xl shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-500 font-semibold hover:text-white cursor-pointer transition-all transition-duration: 400ms;">
+                  <div className="justify-center items-center px-16 py-3.5 mt-20 text-lg mr-5 text-center text-violet-800 whitespace-nowrap bg-white shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-500 font-semibold hover:text-white cursor-pointer transition-all transition-duration: 400ms;">
                     Get Started
                   </div>
                 </div>
@@ -234,14 +233,14 @@ function PricingCardsSection() {
                     />
                     <div className="font-Poppins-400 grow">Custom reports</div>
                   </div>
-                  <div className="justify-center font-semibold items-center px-16 py-4 mt-16 text-lg text-center text-white whitespace-nowrap bg-violet-800 rounded-xl shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
+                  <div className="justify-center font-semibold items-center px-16 py-4 mt-16 text-lg text-center text-white whitespace-nowrap bg-violet-800 shadow-2xl max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms;">
                     Get Started
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="font-Poppins-400 justify-center px-7 py-2.5 mt-24 text-lg text-center hover:text-violet-800 text-neutral-100 bg-violet-800 whitespace-nowrap hover:border-2 hover:border-solid shadow-2xl hover:bg-neutral-100 hover:border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
+          <div className="sm:block md:block hidden font-Poppins-400 justify-center px-7 py-2.5 mt-24 text-lg text-center text-violet-800 hover:text-neutral-100 hover:bg-violet-800 whitespace-nowrap border-2 border-solid shadow-2xl bg-neutral-100 border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
             Enroll Now
           </div>
         </div>
