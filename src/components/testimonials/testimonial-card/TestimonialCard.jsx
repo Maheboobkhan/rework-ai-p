@@ -2,7 +2,7 @@ import React from "react";
 
 function TestimonialCard({ content, author, role, imageSrc }) {
     return (
-        <div className="flex flex-col grow p-5 w-full bg-violet-100 max-md:mt-10 max-sm:w-screen">
+        <div className="flex flex-col p-5 w-full bg-violet-100 max-md:mt-10 max-sm:w-screen">
             <div className="font-Poppins text-lg md:text-sm leading-7 text-black max-sm:text-sm">{content}</div>
             <div className="font-Archivo mt-8 text-2xl md:text-xl leading-8 text-violet-800 max-sm:text-base">{author}</div>
             <div className="font-Poppins text-base font-medium capitalize text-neutral-500 max-sm:text-sm">{role}</div>

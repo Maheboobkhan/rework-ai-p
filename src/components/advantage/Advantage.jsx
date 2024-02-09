@@ -13,7 +13,7 @@ const Advantage = () => {
                     <button className="font-Archivo font-[18px] justify-center self-center p-2.5 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50 max-sm:text-sm" onClick={handleClick}>
                         Why we are better
                     </button>
-                    <div className="font-Archivo font-[42px] self-center mt-5 text-5xl text-center leading-[50px] text-zinc-900 max-md:max-w-full max-sm:text-3xl">
+                    <div className="font-Archivo font-[42px] self-center mt-5 text-5xl text-center leading-[50px] text-zinc-900 max-md:max-w-full max-sm:text-4xl">
                         <span className="text-zinc-900">
                             <b>Rework AI</b> vs. Traditional Interviews: A Comparative Insight
                         </span>

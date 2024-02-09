@@ -1,13 +1,6 @@
 import React, { useState } from "react";
-import { FacebookSharp, Instagram, Telegram, WhatsApp, X } from "@mui/icons-material";
 import NormalFeature from "./features/NormalFeature";
 import AccordianFeature from "./features/AccordianFeature";
-import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
-import telegram from '../../assets/telegram.png'
-import facebook from '../../assets/facebook.png'
-import whatsapp from '../../assets/whatsapp.png'
-import x from '../../assets/x.png'
-import instagram from '../../assets/instagram.png'
 import SocialMedia from "./features/SocialMedia";
 
 const Footer = () => {
@@ -39,7 +32,7 @@ const Footer = () => {
         </div>
 
         {/* RESOURCES */}
-        <div className="flex flex-col self-stretch">
+        <div className="flex flex-col">
           <div className="max-sm:hidden">
             <NormalFeature />
           </div>
@@ -75,7 +68,7 @@ const Footer = () => {
         </div>
       </div>
       {/* COPY RIGHT */}
-      <div className="font-Poppins font-[14px] sm:font-[12px] mt-11 text-sm leading-5 whitespace-nowrap text-slate-400 max-md:mt-10">© 2022 TalentFinder. All rights reserved.</div>
+      <div className="font-Poppins font-[14px] sm:font-[12px] mt-11 text-sm leading-5 whitespace-nowrap text-slate-400 max-md:mt-10 max-sm:text-left">© 2022 TalentFinder. All rights reserved.</div>
     </footer>
   );
 }

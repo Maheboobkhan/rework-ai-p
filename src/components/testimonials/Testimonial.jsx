@@ -60,14 +60,14 @@ const Testimonial = () => {
     
     return (
         <div className='w-screen'>
-            <div className="font-Archivo justify-center w-fit p-2.5 mt-3 mx-auto text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 max-sm:text-sm">
+            <div className="font-Archivo justify-center w-fit p-2.5 mt-3 mx-auto text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 max-sm:text-base">
                 Our Happy Customers
             </div>
-            <div className="font-Archivo mt-5 mr-5 text-5xl font-bold text-center text-black capitalize max-md:max-w-full max-md:text-4xl max-sm:px-4 max-sm:text-2xl">
+            <div className="font-Archivo mt-5 mr-5 text-5xl font-bold text-center text-black capitalize max-md:max-w-full max-md:text-4xl max-sm:px-4 max-sm:text-3xl">
                 Success Stories:
                 <br /> Real Mentees, Real Results
             </div>
-            <div className="font-Archivo font-[18px] w-screen mt-2 text-lg px-4 text-center text-black max-sm:text-sm">
+            <div className="font-Archivo font-[18px] w-screen mt-2 text-lg px-4 text-center text-black max-sm:text-base">
                 Checkout the reviews from our mentees about how their experience was with us.
             </div>
 
@@ -124,11 +124,11 @@ const Testimonial = () => {
                         }}
                     >
                         {testimonials.map((testimonial, index) => (
-                            <SwiperSlide key={index} className='bg-[#EEE5FF] ml-[2px] px-4 py-4 hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration'>
+                            <SwiperSlide key={index} className='bg-[#EEE5FF] px-4 py-4 hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration'>
                                 
-                                    <p className='text-wrap text-[18px] font-Poppins-400 font-normal'>{testimonial.content}</p>
-                                    <h2 className='text-[#5C27C0] text-[25px] font-Archivo-400 mt-2'>{testimonial.author}</h2>
-                                    <h4 className='font-Poppins-500 text-[20px] font-medium text-[#6A6A6A]'>{testimonial.role}</h4>
+                                    <p className='text-wrap text-base font-Poppins-400 font-normal'>{testimonial.content}</p>
+                                    <h2 className='text-[#5C27C0] text-xl font-Archivo-400 mt-2'>{testimonial.author}</h2>
+                                    <h4 className='font-Poppins-500 text-lg font-medium text-[#6A6A6A]'>{testimonial.role}</h4>
                                     <img src={testimonial.imageSrc} className='mt-3.5' />
                             </SwiperSlide>
                         ))}
