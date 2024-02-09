@@ -13,8 +13,7 @@ function CertificateSection() {
                   Unlock the Power of Our Features and get
                 </span>
                 
-                <span className="font-Archivo-800 font-extrabold text-stone-800">
-                  
+                <span className="font-Archivo-800 font-extrabold ml-[6px] text-stone-800">
                   Certified by us
                 </span>
                 <span className="font-medium text-stone-800">!</span>
