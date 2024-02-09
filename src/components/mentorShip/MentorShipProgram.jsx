@@ -10,7 +10,7 @@ const MentorshipProgram = () => {
         <div className="font-Archivo flex gap-5 max-md:flex-col max-md:gap-0 max-md my-4 mx-auto">
             <div className="flex flex-col w-[55%] max-md:ml-0 max-md:w-full max-sm:text-center">
                 <div className="flex flex-col self-stretch my-auto font-medium max-md:mt-10 max-md:max-w-full">
-                    <h1 className="font-Archivo text-4xl text-black leading-[52px] max-md:max-w-full max-sm:text-2xl">
+                    <h1 className="font-Archivo text-4xl text-black leading-[52px] max-md:max-w-full max-sm:text-3xl">
                         Limited slots available!
                         <span className="font-Archivo font-extrabold text-black max-sm:block">
                             Secure your spot today!
@@ -21,7 +21,7 @@ const MentorshipProgram = () => {
                         Limited slots available for our exclusive mentorship program.
                     </p>
                     <button
-                        className="justify-center self-start px-7 py-3 m-8 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 rounded-xl max-md:px-5 hover:bg-violet-900 hover:text-white max-sm:mx-auto"
+                        className="justify-center self-start px-7 py-3 m-8 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 border-2 border-violet-800 max-md:px-5 hover:bg-white hover:text-violet-800 max-sm:mx-auto"
                         aria-label="Apply now"
                         type="submit"
                         onClick={handleClick}
