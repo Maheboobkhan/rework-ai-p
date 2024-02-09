@@ -47,7 +47,7 @@ const Footer = () => {
             <form onSubmit={handleSubmit} className="flex justify-between text-base leading-6 mt-2 gap-5 max-sm:gap-3">
               <input
                 type="email"
-                className="justify-center px-3.5 py-3 bg-white rounded-lg border border-solid shadow-sm text-neutral-500"
+                className="justify-center p-3 bg-white rounded-lg border border-solid shadow-sm text-neutral-500"
                 id="emailInput"
                 aria-label="Your Email"
                 placeholder="abc123@gmail.com"
@@ -64,11 +64,14 @@ const Footer = () => {
           </div>
           <div className="sm:hidden">
             <SocialMedia />
+            <div className="font-Poppins font-[14px] max-sm:font-[12px] text-sm leading-5 whitespace-nowrap text-slate-400 max-md:mt-10">
+              © 2022 TalentFinder. All rights reserved.
+            </div>
           </div>
         </div>
       </div>
       {/* COPY RIGHT */}
-      <div className="font-Poppins font-[14px] sm:font-[12px] mt-11 text-sm leading-5 whitespace-nowrap text-slate-400 max-md:mt-10 max-sm:text-left">© 2022 TalentFinder. All rights reserved.</div>
+      <div className="font-Poppins font-[14px] mt-11 text-sm leading-5 whitespace-nowrap text-slate-400 max-md:mt-10 max-sm:hidden">© 2022 TalentFinder. All rights reserved.</div>
     </footer>
   );
 }

@@ -32,7 +32,7 @@ const Home = () => {
                 <MentorshipProgram />
             </div>
 
-            <div className="bg-purple-800 py-6 max-w-screen">
+            <div className="bg-purple-800 max-w-screen">
                 <Footer />
             </div>
         </div>
