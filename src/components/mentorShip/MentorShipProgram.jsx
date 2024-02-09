@@ -21,7 +21,7 @@ const MentorshipProgram = () => {
                         Limited slots available for our exclusive mentorship program.
                     </p>
                     <button
-                        className="justify-center self-start px-7 py-3 m-8 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 border-2 border-violet-800 max-md:px-5 hover:bg-white hover:text-violet-800 max-sm:mx-auto"
+                        className="justify-center self-start px-7 py-3 my-8 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 border-2 border-violet-800 max-md:px-5 hover:bg-white hover:text-violet-800 max-sm:mx-auto"
                         aria-label="Apply now"
                         type="submit"
                         onClick={handleClick}
