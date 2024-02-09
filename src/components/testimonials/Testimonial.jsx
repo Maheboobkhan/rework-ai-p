@@ -63,7 +63,7 @@ const Testimonial = () => {
             <div className="font-Archivo justify-center w-fit p-2.5 mt-3 mx-auto text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 max-sm:text-sm">
                 Our Happy Customers
             </div>
-            <div className="font-Archivo mt-5 ml-5 text-5xl font-bold text-center text-black capitalize max-md:max-w-full max-md:text-4xl max-sm:px-4 max-sm:text-2xl">
+            <div className="font-Archivo mt-5 mr-5 text-5xl font-bold text-center text-black capitalize max-md:max-w-full max-md:text-4xl max-sm:px-4 max-sm:text-2xl">
                 Success Stories:
                 <br /> Real Mentees, Real Results
             </div>
@@ -90,7 +90,7 @@ const Testimonial = () => {
                 </div>
 
                 {/* For Small screens */}
-                <div className='sm:hidden'>
+                <div className='sm:hidden w-[90%]'>
                     <Swiper
                         slidesPerView={3}
                         spaceBetween={30}
@@ -124,18 +124,20 @@ const Testimonial = () => {
                         }}
                     >
                         {testimonials.map((testimonial, index) => (
-                            <SwiperSlide key={index} className='hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration'>
-                                <TestimonialCard
-                                    content={testimonial.content}
-                                    author={testimonial.author}
-                                    role={testimonial.role}
-                                    imageSrc={testimonial.imageSrc}
-                                />
+                            <SwiperSlide key={index} className='bg-[#EEE5FF] ml-[2px] px-4 py-4 hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration'>
+                                
+                                    <p className='text-wrap text-[18px] font-Poppins-400 font-normal'>{testimonial.content}</p>
+                                    <h2 className='text-[#5C27C0] text-[25px] font-Archivo-400 mt-2'>{testimonial.author}</h2>
+                                    <h4 className='font-Poppins-500 text-[20px] font-medium text-[#6A6A6A]'>{testimonial.role}</h4>
+                                    <img src={testimonial.imageSrc} className='mt-3.5' />
                             </SwiperSlide>
                         ))}
                     </Swiper>
 
-                    <Swiper className="md:hidden sm:block mySwiper w-40"
+                    
+
+                </div>
+                <Swiper className="md:hidden sm:block mySwiper w-40"
                         slidesPerView={3}
                         loop={true}
                         scrollbar={{
@@ -151,8 +153,6 @@ const Testimonial = () => {
                             <SwiperSlide key={index} className='w-40 text-white'>.</SwiperSlide>
                         ))}
                     </Swiper>
-
-                </div>
             </div>
 
 
