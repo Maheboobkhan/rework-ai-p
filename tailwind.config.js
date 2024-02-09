@@ -23,7 +23,7 @@ export default {
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
-        'infinite-scroll-top': 'infinite-scroll 20s linear infinite',
+        'infinite-scroll-top': 'infinite-scroll-top 20s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {
@@ -31,8 +31,8 @@ export default {
           to: { transform: 'translateX(-100%)' },
         },
         'infinite-scroll-top': {
-          from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-100%)' },
+          from: { transform: 'translateX(-100%)' },
+          to: { transform: 'translateX(0)' },
         }
       },
     },
