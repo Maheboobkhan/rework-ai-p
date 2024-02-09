@@ -8,7 +8,7 @@ const MentorshipProgram = () => {
 
     return (
         <div className="font-Archivo flex gap-5 max-md:flex-col max-md:gap-0 max-md my-4 mx-auto">
-            <div className="flex flex-col w-[55%] max-md:ml-0 max-md:w-full max-sm:text-center">
+            <div className="flex flex-col w-full max-md:ml-0 max-sm:text-center">
                 <div className="flex flex-col self-stretch my-auto font-medium max-md:mt-10 max-md:max-w-full">
                     <h1 className="font-Archivo text-4xl text-black leading-[52px] max-md:max-w-full max-sm:text-3xl">
                         Limited slots available!
