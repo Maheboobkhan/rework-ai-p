@@ -73,7 +73,7 @@ const FAQSection = () => {
             </div>
 
             {/* FAQ question answers */}
-            <div className="w-screen md:px-16 grid md:grid-cols-2 grid-cols-1 gap-5 mt-8">
+            <div className="w-screen lg:px-20 md:px-8 grid md:grid-cols-2 grid-cols-1 gap-5 mt-8">
                 {FaqQuestions.map((faq) => (
                     <div key={faq.qid}>
                         <FaqItem question={faq.question} answer={faq.answer} />
