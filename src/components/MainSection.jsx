@@ -16,7 +16,7 @@ function MainSection() {
               Elevate your career journey with personalized mentorship from
               industry experts. 🚀
             </p>
-            <button className="justify-center font-Archivo-700 self-start hover:border-2 hover:border-violet-800 px-7 py-2.5 mt-14 text-lg leading-7 text-white whitespace-nowrap bg-violet-800 max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms; md:mx-0 sm:mx-0 mx-auto">
+            <button className="hidden md:block sm:block justify-center font-Archivo-700 self-start hover:border-2 hover:border-violet-800 px-7 py-2.5 mt-14 text-lg leading-7 text-white whitespace-nowrap bg-violet-800 max-md:px-5 max-md:mt-10 hover:bg-violet-200 hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms; md:mx-0 sm:mx-0 mx-auto">
               Book a trial
             </button>
             <div className="flex flex-col sm:flex sm:flex-row md:flex md:flex-row md:gap-5 gap-2 sm:gap-5 justify-between items-center md:self-start sm:self-start mt-6 text-lg text-center text-indigo-400 whitespace-nowrap">
