@@ -11,7 +11,7 @@ const MentorshipProgram = () => {
             <div className="flex flex-col w-full max-md:ml-0 max-sm:text-center">
                 <div className="flex flex-col self-stretch my-auto font-medium max-md:mt-10 max-md:max-w-full">
                     <h1 className="font-Archivo text-4xl text-black leading-[52px] max-md:max-w-full max-sm:text-3xl">
-                        Limited slots available!
+                        Limited slots available! &nbsp;
                         <span className="font-Archivo font-extrabold text-black max-sm:block">
                             Secure your spot today!
                         </span>
