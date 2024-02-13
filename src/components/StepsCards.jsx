@@ -52,7 +52,7 @@ function StepsCards() {
           </div>
         </div>
       </div>
-      <div className="font-Poppins-500 hidden sm:hidden md:block justify-center px-7 py-2.5 mt-11 text-lg font-medium text-center hover:text-violet-800 text-neutral-100 bg-violet-800 whitespace-nowrap hover:border-2 hover:border-solid shadow-2xl hover:bg-neutral-100 hover:border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
+      <div className="font-Poppins-500 hidden sm:hidden md:block justify-center px-7 py-2.5 mt-11 text-lg font-medium text-center text-violet-800 hover:text-neutral-100 hover:bg-violet-800 whitespace-nowrap border-2 border-solid shadow-2xl bg-neutral-100 border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
         Get Started
       </div>
 
