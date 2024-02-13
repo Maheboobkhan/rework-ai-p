@@ -73,9 +73,11 @@ const FAQSection = () => {
             </div>
 
             {/* FAQ question answers */}
-            <div className="w-screen lg:px-20 md:px-8 grid md:grid-cols-2 grid-cols-1 gap-5 mt-8">
-                {FaqQuestions.map((faq) => (
+            <div className="w-screen lg:px-20 md:px-8 grid md:grid-cols-2 grid-cols-1 gap-5 mt-20">
+                {FaqQuestions.map((faq, index) => (
                     <div key={faq.qid}>
+                        {faq.qid === 1 && <hr className="my-5" />}
+                        {faq.qid === 2 && <hr className="my-5 max-sm:hidden" />}
                         <FaqItem question={faq.question} answer={faq.answer} />
                     </div>
                 ))}
