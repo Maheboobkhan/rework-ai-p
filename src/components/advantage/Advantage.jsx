@@ -10,7 +10,7 @@ const Advantage = () => {
         <div>
             <div className="flex justify-center items-center px-16 py-12 bg-white max-md:px-5">
                 <div className="flex flex-col mt-12 w-full max-md:mt-10">
-                    <button className="font-Archivo font-[18px] justify-center self-center p-2.5 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50 max-sm:text-sm" onClick={handleClick}>
+                    <button className="font-Archivo font-[18px] justify-center self-center p-2.5 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-[#3222F0] text-opacity-50 max-sm:text-sm" onClick={handleClick}>
                         Why we are better
                     </button>
                     <div className="font-Archivo font-[42px] self-center mt-5 text-5xl text-center leading-[50px] text-zinc-900 max-md:max-w-full max-sm:text-4xl">

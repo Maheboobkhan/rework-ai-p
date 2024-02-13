@@ -17,7 +17,7 @@ function MentorshipCard() {
   return (
     <>
       <div>
-        <p className="text-indigo-700 bg-purple-100 rounded-[10px] px-2 py-3 w-fit m-auto mt-12 font-Archivo-400">What We Offer</p>
+        <p className="text-[#3222F0] text-opacity-50 bg-purple-100 rounded-[10px] px-2 py-3 w-fit m-auto mt-12 font-Archivo-400">What We Offer</p>
         <h1 className="font-bold font-Archivo-600 text-[35px] w-fit m-auto mt-2 text-center">We offer the best Mentorship</h1>
         <MentorShipParagraph />
 
