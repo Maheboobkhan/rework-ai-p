@@ -10,8 +10,8 @@ const FaqItem = ({ question, answer }) => {
     };
 
     return (
-        <div className="w-full px-2 mb-6">
-            <div className="px-8 py-2 bg-transparent">
+        <div className="w-full max-sm:px-5">
+            <div className=" py-2 bg-transparent">
                 <button
                     className="flex group w-full items-start justify-between text-left"
                     onClick={handleToggle}
@@ -33,7 +33,7 @@ const FaqItem = ({ question, answer }) => {
                     </div>
                 </button>
             </div>
-            <hr />
+            <hr className='mx-auto md:mt-5 mt-3 border-white max-sm:border-black'/>
         </div>
     );
 };

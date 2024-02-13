@@ -74,10 +74,10 @@ const FAQSection = () => {
 
             {/* FAQ question answers */}
             <div className="w-screen lg:px-20 md:px-8 grid md:grid-cols-2 grid-cols-1 gap-5 mt-20">
-                {FaqQuestions.map((faq, index) => (
+                {FaqQuestions.map((faq) => (
                     <div key={faq.qid}>
-                        {faq.qid === 1 && <hr className="my-5" />}
-                        {faq.qid === 2 && <hr className="my-5 max-sm:hidden" />}
+                        {faq.qid === 1 && <hr className="mx-auto border-white max-sm:border-black max-sm:w-[90%] md:mb-5 mb-3" />}
+                        {faq.qid === 2 && <hr className=" border-white mb-5 max-sm:hidden" />}
                         <FaqItem question={faq.question} answer={faq.answer} />
                     </div>
                 ))}
