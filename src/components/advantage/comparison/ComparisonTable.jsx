@@ -88,7 +88,7 @@ const ComparisonTable = () => {
                 <Typography
                   variant="small"
                   color="blue-gray"
-                  className="font-[22px] text-center leading-none opacity-70"
+                  className="font-[22px] text-center leading-none opacity-70 p-2"
                 >
                   {head}
                 </Typography>
@@ -103,19 +103,19 @@ const ComparisonTable = () => {
 
             return (
               <tr key={feature}>
-                <td className='font-Archivo p-4 grow bg-violet-800 text-neutral-100 max-sm:text-xs'>
+                <td className='w-80 font-Archivo p-4 grow bg-violet-800 text-neutral-100 max-sm:text-xs'>
                   <Typography variant="small" color="blue-gray" className="font-[22px]">
                     {feature}
                   </Typography>
                 </td>
                 <td className='font-Poppins p-4 bg-blue-gray-50/50'>
-                  <Typography variant="small" color="blue-gray" className="text-xl font-[20px] md:flex max-sm:text-center max-sm:text-xs">
+                  <Typography variant="small" color="blue-gray" className="text-base my-auto font-[20px] md:flex max-sm:text-center max-sm:text-xs">
                     <img src={aiInterview.icon} alt="correct" className="w-6 h-6 m-4 mt-1 max-sm:mx-auto" />
                     {aiInterview.content}
                   </Typography>
                 </td>
                 <td className='font-Poppins p-4'>
-                  <Typography variant="small" color="blue-gray" className="text-xl font-[20px] md:flex max-sm:text-center max-sm:text-xs">
+                  <Typography variant="small" color="blue-gray" className="text-base my-auto font-[20px] md:flex max-sm:text-center max-sm:text-xs">
                     <img src={physicalInterview.icon} alt="wrong" className="w-6 h-6 m-4 mt-1 max-sm:mx-auto" />
                     {physicalInterview.content}
                   </Typography>
