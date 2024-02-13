@@ -5,7 +5,7 @@ function PricingCardsSection() {
     <>
       <div className="flex justify-center items-center px-16 py-12 bg-slate-50 max-md:px-5">
         <div className="flex flex-col items-center mt-3 w-full max-w-[1197px] max-md:max-w-full">
-          <div className="font-Archivo-400 justify-center p-2.5 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50">
+          <div className="font-Archivo-400 justify-center p-2.5 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-[#3222F0] text-opacity-50">
             Decided to join?
           </div>
           <div className="font-Archivo-600 mt-5 text-5xl font-semibold text-center text-black leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">

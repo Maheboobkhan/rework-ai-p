@@ -60,7 +60,7 @@ const Testimonial = () => {
     
     return (
         <div className='w-screen'>
-            <div className="font-Archivo justify-center w-fit p-2.5 mt-3 mx-auto text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 max-sm:text-base">
+            <div className="font-Archivo justify-center w-fit p-2.5 mt-3 mx-auto text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50 max-sm:text-base">
                 Our Happy Customers
             </div>
             <div className="font-Archivo mt-5 mr-5 text-5xl font-bold text-center text-black capitalize max-md:max-w-full max-md:text-4xl max-sm:px-4 max-sm:text-3xl">
