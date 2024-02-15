@@ -11,19 +11,19 @@ const Home = () => {
         <div className=''>
             {/* <h1>Milan</h1> */}
 
-            <div className='w-full'>
+            {/* <div className='w-full'>
                 <Advantage />
-            </div>
-
-            <div className='sm:hidden w-screen'>
-                <Invest />
-            </div>
+            </div> */}
 
             <div className="flex flex-col items-center w-full m-4 p-4 bg-slate-50 max-md:px-5">
                 <Testimonial />
             </div>
 
-            <div className='px-16 bg-violet-800 max-md:px-5 max-sm:bg-white'>
+            <div className='w-screen bg-violet-100'>
+                <Invest />
+            </div>
+
+            <div className='px-16 bg-white max-md:px-5 max-sm:bg-white'>
                 <FAQSection />
             </div>
 
