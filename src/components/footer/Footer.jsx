@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="text-3xl font-extrabold whitespace-nowrap">
             <span className="grow font-Raleway text-teal-600">Talent </span>
             <span className="grow font-Raleway sm:text-white text-opacity-90">Finder</span>
-            <p className='font-Caveat text-xs text-end mr-4 font-[14px] max-sm:font-[9.11px] sm:text-white italic text-[C7C7C7] w-[101.42] h-[23.7]'>by rework</p>
+            <p className='font-Caveat text-xs text-end mr-4 font-[14px] max-sm:font-[9.11px] sm:text-white italic text-[#fff] w-[101.42] h-[23.7]'>by rework</p>
           </div>
 
           <p className="font-Roboto font-[15.38px] max-sm:font-[12px] mt-8 text-base leading-6 text-white px-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>

@@ -7,7 +7,8 @@ export default {
         Caveat: ['Caveat', 'cursive'],
         Raleway: ['Raleway', 'sans-serif'],
         Poppins: ['Poppins', 'sans-serif'],
-        Garnett: ['Garnett Semibold Regular'],
+        // Garnett: ['Garnett Semibold Regular'],
+        Garnett: ['Garnett', 'sans-serif'],
         Archivo: {
           300: ['Archivo-300', 'sans-serif'],
           400: ['Archivo-400', 'sans-serif'],
