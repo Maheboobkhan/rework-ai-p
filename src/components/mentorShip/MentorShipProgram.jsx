@@ -7,7 +7,7 @@ const MentorshipProgram = () => {
     };
 
     return (
-        <div className="font-Archivo flex gap-5 mt-20 max-md:flex-col max-md:gap-0 max-md mx-auto sm:w-[78%] w-[98%] pt-10 pb-6 mb-6">
+        <div className="font-Archivo flex gap-5 max-md:flex-col max-md:gap-0 max-md mx-auto sm:w-[78%] w-[98%] pt-10 pb-6">
             <div className="flex flex-col w-full max-md:ml-0 max-sm:text-center">
                 <div className="flex flex-col self-stretch my-auto font-medium max-md:mt-10 max-md:max-w-full">
                     <h1 className="font-Archivo mx-auto text-center text-2xl sm:text-4xl text-black font-medium">

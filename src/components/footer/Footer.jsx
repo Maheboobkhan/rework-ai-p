@@ -15,12 +15,12 @@ const Footer = () => {
   };
 
   return (
-    <footer className="flex flex-col items-center p-12 max-sm:ml-4">
+    <footer className="flex flex-col items-center p-6 max-sm:ml-4">
       <div className="flex gap-5 justify-between items-start px-5 mt-1.5 max-md:flex-wrap">
         {/* Talent Finder */}
         <div className="flex flex-col basis-0">
           <div className="text-3xl font-extrabold whitespace-nowrap">
-            <span className="grow font-Raleway text-teal-600">Talent </span>
+            <span className="grow font-Raleway text-teal-600 max-sm:text-white">Talent </span>
             <span className="grow font-Raleway sm:text-white text-opacity-90">Finder</span>
             <p className='font-Caveat text-xs text-end mr-4 font-[14px] max-sm:font-[9.11px] sm:text-white italic text-[#fff] w-[101.42] h-[23.7]'>by rework</p>
           </div>
@@ -36,11 +36,11 @@ const Footer = () => {
           <div className="max-sm:hidden">
             <NormalFeature />
           </div>
-          <div className="sm:hidden">
+          <div className="sm:hidden w-full">
             <AccordianFeature />
           </div>
           {/* NEWS LETTER */}
-          <div className="flex flex-col self-end px-px mt-7 whitespace-nowrap">
+          {/* <div className="flex flex-col self-end px-px mt-7 whitespace-nowrap">
             <div className="font-Inter self-start text-lg font-bold leading-7 text-white">
               Newsletter
             </div>
@@ -61,7 +61,7 @@ const Footer = () => {
                 </button>
               </div>
             </form>
-          </div>
+          </div> */}
           <div className="sm:hidden">
             <SocialMedia />
             <div className="font-Poppins font-[14px] max-sm:font-[12px] text-sm leading-5 whitespace-nowrap text-slate-400 max-md:mt-10">

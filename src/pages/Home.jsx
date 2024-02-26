@@ -15,7 +15,7 @@ const Home = () => {
                 <Advantage />
             </div> */}
 
-            <div className="flex flex-col items-center w-full m-4 p-4 bg-slate-50 max-md:px-5">
+            <div className="flex flex-col items-center w-full p-4 bg-slate-50 max-md:px-5">
                 <Testimonial />
             </div>
 

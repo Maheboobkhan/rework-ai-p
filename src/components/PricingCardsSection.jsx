@@ -3,7 +3,7 @@ import React from "react";
 function PricingCardsSection() {
   return (
     <>
-      <div className="flex justify-center items-center mb-10 px-16 py-12 bg-slate-50 max-md:px-5">
+      <div className="flex justify-center items-center px-16 py-12 bg-slate-50 max-md:px-5">
         <div className="flex flex-col items-center mt-3 w-full max-w-[1197px] max-md:max-w-full">
           <div className="font-Archivo-400 justify-center p-2.5 text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-[#3222F0] text-opacity-50">
             Decided to join?
