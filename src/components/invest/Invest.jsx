@@ -2,7 +2,7 @@ import React from 'react'
 
 const Invest = () => {
     return (
-        <div className="flex flex-col justify-center items-center py-9 bg-violet-100 px-4 sm:w-[65%] mx-auto">
+        <div className="flex flex-col justify-center items-center py-8 bg-violet-100 px-4 sm:w-[65%] mx-auto">
             <div className="font-Archivo self-stretch text-2xl sm:text-3xl font-extrabold leading-8 text-center text-black whitespace-nowrap">
                 Invest in Your Future
             </div>

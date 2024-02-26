@@ -146,8 +146,8 @@ const FAQ = () => {
 
   return (
     <>
-      <div className="max-w-4xl mx-auto mt-8">
-        <div className="font-Archivo justify-center w-fit p-2.5 mt-14 mx-auto text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50 max-sm:text-base">
+      <div className="max-w-4xl mx-auto pt-14">
+        <div className="font-Archivo justify-center w-fit p-2.5 mx-auto text-lg leading-7 text-center whitespace-nowrap bg-purple-100 rounded-xl text-indigo-700 text-opacity-50 max-sm:text-base">
           Our Happy Customers
         </div>
 
@@ -155,7 +155,7 @@ const FAQ = () => {
           FAQ
         </h1>
         <p className='sm:hidden text-[14px] font-Poppins-400 text-center mt-4 mb-12'>
-        checkout the reviews from our mentees about how there experience was with us. and what not
+          checkout the reviews from our mentees about how there experience was with us. and what not
         </p>
 
         <h1 className='hidden sm:block mt-2 font-Garnett-semibold font-semibold text-[36px] text-center text-[#5C27C0] tracking-tighter italic'>
@@ -222,7 +222,8 @@ const FAQ = () => {
       </div>
       <div className="w-fit font-Poppins-500 justify-center mx-auto px-5 py-2.5 mt-11 text-lg font-medium text-center text-violet-800 hover:text-neutral-100 hover:bg-violet-800 whitespace-nowrap border-2 border-solid shadow-2xl bg-neutral-100 border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
         Know More
-      </div></>
+      </div>
+    </>
   );
 };
 
