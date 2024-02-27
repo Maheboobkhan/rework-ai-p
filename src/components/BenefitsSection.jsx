@@ -19,7 +19,7 @@ function BenefitsSection() {
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
 
             <div className="sm:flex flex gap-x-5 w-full justify-between">
-              <div className="flex flex-col w-1/2 max-md:ml-0 max-md:w-full h-fit hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
+              <div className="flex flex-col w-1/2 max-md:ml-0 max-md:w-full h-fit hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
                 <div className="flex flex-col grow rounded-xl justify-center items-center px-5 py-14 w-full bg-purple-50 shadow-sm text-zinc-900 max-md:mt-9">
                   <img
                     loading="lazy"
@@ -35,7 +35,7 @@ function BenefitsSection() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full h-fit hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
+              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full h-fit hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
                 <div className="flex flex-col grow rounded-xl justify-center items-center px-5 py-12 w-full bg-purple-50 shadow-sm text-neutral-800 max-md:mt-9">
                   <img
                     loading="lazy"
@@ -54,7 +54,7 @@ function BenefitsSection() {
             </div>
 
             <div className="sm:flex flex gap-x-5 w-full justify-between">
-              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
+              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
                 <div className="flex flex-col grow rounded-xl justify-center items-center px-4 py-12 w-full bg-purple-50 shadow-sm text-zinc-800 max-md:mt-9">
                   <img
                     loading="lazy"
@@ -70,7 +70,7 @@ function BenefitsSection() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
+              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
                 <div className="flex flex-col grow rounded-xl justify-center items-center px-7 py-12 w-full bg-purple-50 shadow-sm text-zinc-800 max-md:px-5 max-md:mt-9">
                   <img
                     loading="lazy"
@@ -93,7 +93,7 @@ function BenefitsSection() {
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
 
             <div className="sm:flex flex gap-x-5 w-full justify-between">
-              <div className="flex flex-col w-1/2 max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
+              <div className="flex flex-col w-1/2 max-md:ml-0 max-md:w-full hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
                 <div className="flex flex-col grow rounded-xl justify-center px-6 py-11 w-full bg-purple-50 shadow-sm text-zinc-900 max-md:px-5 max-md:mt-9">
                   <img
                     loading="lazy"
@@ -109,7 +109,7 @@ function BenefitsSection() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
+              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
                 <div className="flex flex-col grow rounded-xl justify-center items-center px-4 py-10 w-full bg-purple-50 shadow-sm text-neutral-800 max-md:mt-9">
                   <img
                     loading="lazy"
@@ -126,7 +126,7 @@ function BenefitsSection() {
             </div>
 
             <div className="sm:flex flex gap-x-5 w-full justify-between">
-              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
+              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
                 <div className="flex flex-col grow rounded-xl justify-center items-center px-4 py-10 w-full bg-purple-50 shadow-sm text-zinc-800 max-md:mt-9">
                   <img
                     loading="lazy"
@@ -143,7 +143,7 @@ function BenefitsSection() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full hover:scale-[0.95] hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
+              <div className="flex flex-col ml-5 w-1/2 max-md:ml-0 max-md:w-full hover:cursor-pointer hover:transition-all transition-duration: 500ms transition-all transition-duration">
                 <div className="flex flex-col grow rounded-xl justify-center items-center px-4 py-10 w-full bg-purple-50 shadow-sm text-zinc-800 max-md:mt-9">
                   <img
                     loading="lazy"

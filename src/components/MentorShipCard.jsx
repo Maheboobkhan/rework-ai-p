@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useRef} from "react";
 import MentorShipParagraph from "./MentorShipParagraph";
 
 import SwiperCore from 'swiper'
@@ -13,6 +13,32 @@ import { Autoplay, Scrollbar } from 'swiper/modules';
 
 function MentorshipCard() {
 
+  const swiper1Ref = useRef(null);
+  const swiper2Ref = useRef(null);
+
+  const handleSwipersMouseEnter = () => {
+    pauseSwiper(swiper1Ref);
+    pauseSwiper(swiper2Ref);
+  };
+
+  const handleSwipersMouseLeave = () => {
+    startSwiper(swiper1Ref);
+    startSwiper(swiper2Ref);
+  };
+
+  const pauseSwiper = (swiperRef) => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.autoplay.stop();
+    }
+  };
+
+  const startSwiper = (swiperRef) => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.autoplay.start();
+    }
+  };
+
+
   SwiperCore.use([Scrollbar, Autoplay]);
   return (
     <>
@@ -21,9 +47,10 @@ function MentorshipCard() {
         <h1 className="font-bold font-Archivo-600 text-[35px] w-fit m-auto mt-2 text-center">We offer the best Mentorship</h1>
         <MentorShipParagraph />
 
-        <div className="mt-5 mb-5">
+        <div className="mt-5 mb-5" onMouseEnter={handleSwipersMouseEnter} onMouseLeave={handleSwipersMouseLeave}>
 
           <Swiper
+          ref={swiper1Ref}
             slidesPerView={3}
             spaceBetween={30}
 
@@ -85,7 +112,7 @@ function MentorshipCard() {
                   professional design with a color palette that aligns with
                   contemporary UI/UX aesGenerate a vibrant and modern UI/UX-themed
                   image for a card promoting a mentorship program.</p>
-                <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-[30px] hover:text-white hover:bg-opacity-50 font-Lato">Learn more</button>
+                {/* <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-[30px] hover:text-white hover:bg-opacity-50 font-Lato">Learn more</button> */}
               </div>
             </SwiperSlide>
 
@@ -104,7 +131,7 @@ function MentorshipCard() {
                   professional design with a color palette that aligns with
                   contemporary UI/UX aesGenerate a vibrant and modern UI/UX-themed
                   image for a card promoting a mentorship program.</p>
-                <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-5 hover:text-white hover:bg-opacity-50 font-Lato">Learn more</button>
+                {/* <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-5 hover:text-white hover:bg-opacity-50 font-Lato">Learn more</button> */}
               </div>
             </SwiperSlide>
 
@@ -123,7 +150,7 @@ function MentorshipCard() {
                   professional design with a color palette that aligns with
                   contemporary UI/UX aesGenerate a vibrant and modern UI/UX-themed
                   image for a card promoting a mentorship program.</p>
-                <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-5 hover:text-white hover:bg-opacity-50 font-Lato">Learn more</button>
+                {/* <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-5 hover:text-white hover:bg-opacity-50 font-Lato">Learn more</button> */}
               </div>
             </SwiperSlide>
 
@@ -142,7 +169,7 @@ function MentorshipCard() {
                   professional design with a color palette that aligns with
                   contemporary UI/UX aesGenerate a vibrant and modern UI/UX-themed
                   image for a card promoting a mentorship program.</p>
-                <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-5 hover:text-white hover:bg-opacity-50 font-Lato">Learn more</button>
+                {/* <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-5 hover:text-white hover:bg-opacity-50 font-Lato">Learn more</button> */}
               </div>
             </SwiperSlide>
 
@@ -161,11 +188,11 @@ function MentorshipCard() {
                   professional design with a color palette that aligns with
                   contemporary UI/UX aesGenerate a vibrant and modern UI/UX-themed
                   image for a card promoting a mentorship program.</p>
-                <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-5 hover:text-white hover:bg-opacity-50 font-Lato">Learn more</button>
+                {/* <button className="text-blue-500 bg-blue-500 bg-opacity-20 border-none py-3 px-3 rounded-[10px] mt-5 hover:text-white hover:bg-opacity-50 font-Lato">Learn more</button> */}
               </div>
             </SwiperSlide>
           </Swiper>
-          <Swiper className="mySwiper w-40"
+          <Swiper className="mySwiper w-40" ref={swiper2Ref}
             slidesPerView={3}
             loop={true}
             scrollbar={{

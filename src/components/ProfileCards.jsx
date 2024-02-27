@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useRef} from 'react'
 import MentorShipParagraph from './MentorShipParagraph';
 
 import SwiperCore from 'swiper'
@@ -12,6 +12,32 @@ import 'swiper/css/pagination';
 import { Scrollbar, Autoplay } from 'swiper/modules';
 
 function ProfileCards() {
+
+  const swiper1Ref = useRef(null);
+  const swiper2Ref = useRef(null);
+
+  const handleSwipersMouseEnter = () => {
+    pauseSwiper(swiper1Ref);
+    pauseSwiper(swiper2Ref);
+  };
+
+  const handleSwipersMouseLeave = () => {
+    startSwiper(swiper1Ref);
+    startSwiper(swiper2Ref);
+  };
+
+  const pauseSwiper = (swiperRef) => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.autoplay.stop();
+    }
+  };
+
+  const startSwiper = (swiperRef) => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.autoplay.start();
+    }
+  };
+
   SwiperCore.use([Scrollbar, Autoplay]);
   return (
     <div className="flex flex-col items-center py-12 bg-slate-50">
@@ -23,9 +49,10 @@ function ProfileCards() {
       </div>
       <MentorShipParagraph />
       <div className="px-5 mt-10 w-full">
-        <div className="flex gap-5">
+        <div className="flex gap-5" onMouseEnter={handleSwipersMouseEnter} onMouseLeave={handleSwipersMouseLeave}>
 
           <Swiper
+          ref={swiper1Ref}
             slidesPerView={3}
             spaceBetween={30}
 
@@ -280,6 +307,7 @@ function ProfileCards() {
           
         </div>
         <Swiper className="mySwiper w-40"
+          ref={swiper2Ref}
             slidesPerView={3}
             loop={true}
             scrollbar={{
