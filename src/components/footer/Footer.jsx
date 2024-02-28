@@ -15,7 +15,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="flex flex-col items-center p-6 max-sm:ml-4">
+    <footer className="flex flex-col items-center p-12 max-sm:ml-4">
       <div className="flex gap-5 justify-between items-start px-5 mt-1.5 max-md:flex-wrap">
         {/* Talent Finder */}
         <div className="flex flex-col basis-0">
@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="max-sm:hidden">
             <NormalFeature />
           </div>
-          <div className="sm:hidden w-full">
+          <div className="sm:hidden w-screen">
             <AccordianFeature />
           </div>
           {/* NEWS LETTER */}

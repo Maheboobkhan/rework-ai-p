@@ -55,12 +55,12 @@ const AccordianFeature = () => {
                         />}
                         aria-controls={`panel${section.id}-content`}
                         id={`panel${section.id}-header`}
-                        style={{ backgroundColor: 'rgb(107 33 168 / var(--tw-bg-opacity))', color: 'white' }}
+                        style={{ backgroundColor: '#5C27C0', color: 'white' }}
                     >
                         <Typography className='font-Inter font-[14px] text-sm'>{section.title}</Typography>
                     </AccordionSummary>
                     <AccordionDetails
-                        style={{ backgroundColor: 'rgb(107 33 168 / var(--tw-bg-opacity))', color: 'white' }}
+                        style={{ backgroundColor: '#5C27C0', color: 'white' }}
                     >
                         <Typography>
                             {section.content.map((item, index) => (
