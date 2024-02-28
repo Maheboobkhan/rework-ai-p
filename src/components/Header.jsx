@@ -56,7 +56,7 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden md:block">
-          <button className="text-white whitespace-nowrap bg-violet-800 max-md:px-5 max-md:mt-10 px-7 py-2.5 font-bold hover:bg-violet-200 font-Archivo-700 hover:text-violet-800 hover:border-2 hover:border-violet-800 cursor-pointer transition-all transition-duration: 400ms;">Contact Us</button>
+          <button className="text-white whitespace-nowrap bg-violet-800 max-md:px-5 max-md:mt-10 px-7 py-2.5 font-bold hover:bg-white font-Archivo-700 hover:text-violet-800 hover:border-2 hover:border-violet-800 cursor-pointer transition-all transition-duration: 400ms;">Enroll Now</button>
         </div>
       </div>
 
