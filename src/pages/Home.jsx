@@ -23,14 +23,14 @@ const Home = () => {
                 <Invest />
             </div>
 
-            <div className='px-16 bg-white max-md:px-5 max-sm:bg-white'>
+            <div className='px-16 pb-6 bg-white max-md:px-5 max-sm:bg-white'>
                 <FAQSection />
             </div>
 
 
-            <div className='px-8 bg-slate-50 max-md:px-5'>
+            {/* <div className='px-8 bg-slate-50 max-md:px-5'>
                 <MentorshipProgram />
-            </div>
+            </div> */}
 
             <div className="bg-[#5C27C0] max-w-screen">
                 <Footer />
