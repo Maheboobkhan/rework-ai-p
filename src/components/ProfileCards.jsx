@@ -326,7 +326,7 @@ function ProfileCards() {
             <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
           </Swiper>
       </div>
-      <div className="justify-center px-10 hover:border-2 hover:border-violet-800 py-2.5 mt-12 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 hover:text-violet-800 hover:bg-violet-200 max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
+      <div className="justify-center px-10 hover:border-2 hover:border-violet-800 py-2.5 mt-12 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 hover:text-violet-800 hover:bg-white max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
         view all
       </div>
     </div>
