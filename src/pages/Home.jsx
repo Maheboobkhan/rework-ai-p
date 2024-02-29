@@ -45,7 +45,7 @@ const Home = () => {
                 <Invest />
             </div>
 
-            <div className='px-16 pb-6 bg-white max-md:px-5 max-sm:bg-white'>
+            <div className='px-16 pb-20 bg-white max-md:px-5 max-sm:bg-white'>
                 <FAQSection />
             </div>
 

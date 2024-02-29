@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
       </div>
       {/* COPY RIGHT */}
-      <div className="font-Poppins font-[14px] mt-11 text-sm leading-5 whitespace-nowrap text-slate-400 max-md:mt-10 max-sm:hidden">© 2022 TalentFinder. All rights reserved.</div>
+      <div className="font-Poppins font-[14px] mt-11 text-sm leading-5 whitespace-nowrap text-slate-400 max-md:mt-10 max-sm:hidden">© 2024 TalentFinder. All rights reserved.</div>
     </footer>
   );
 }

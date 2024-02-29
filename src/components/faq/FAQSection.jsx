@@ -220,9 +220,9 @@ const FAQ = () => {
         ))}
 
       </div>
-      <div className="w-fit font-Poppins-500 justify-center mx-auto px-5 py-2.5 mt-11 text-lg font-medium text-center text-violet-800 hover:text-neutral-100 hover:bg-violet-800 whitespace-nowrap border-2 border-solid shadow-2xl bg-neutral-100 border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
+      {/* <div className="w-fit font-Poppins-500 justify-center mx-auto px-5 py-2.5 mt-11 text-lg font-medium text-center text-violet-800 hover:text-neutral-100 hover:bg-violet-800 whitespace-nowrap border-2 border-solid shadow-2xl bg-neutral-100 border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
         Know More
-      </div>
+      </div> */}
     </>
   );
 };
