@@ -1,14 +1,36 @@
 import React from 'react'
+import Header from "../components/Header";
+import MainSection from "../components/MainSection";
+import BrandsSection from "../components/BrandsSection";
+import MentorshipCard from "../components/MentorShipCard";
+import ProfileCards from "../components/ProfileCards";
+import BenefitsSection from "../components/BenefitsSection";
+import CompanyOverView from "../components/CompanyOverView";
+import StepsCards from "../components/StepsCards";
+import CertificateSection from "../components/CertificateSection";
+import PricingCardsSection from "../components/PricingCardsSection";
+import TopRibbon from "../components/TopRibbon";
 import Footer from '../components/footer/Footer'
-import MentorshipProgram from '../components/mentorShip/MentorShipProgram'
 import FAQSection from '../components/faq/FAQSection'
 import Testimonial from '../components/testimonials/Testimonial'
-import Advantage from '../components/advantage/Advantage'
 import Invest from '../components/invest/Invest'
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='overflow-x-hidden'>
+            <TopRibbon />
+            <Header />
+            <MainSection />
+            <BrandsSection />
+            <MentorshipCard />
+            <ProfileCards />
+            <BenefitsSection />
+            <CompanyOverView />
+            <StepsCards />
+            <CertificateSection />
+            <PricingCardsSection />
+
+            
             {/* <h1>Milan</h1> */}
 
             {/* <div className='w-full'>
