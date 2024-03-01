@@ -11,12 +11,14 @@ function App() {
 
   const router = createBrowserRouter([{
     path: "/",
+    element: <></>,
     children: [
       { path: "/", element: <Home /> },
       { path: "/signup", element: <SignUp /> },
       { path: "/view-all-profile-cards", element: <ViewAllProfileCard /> },
     ],
-  }])
+  }
+  ])
 
   return (
     <div>
