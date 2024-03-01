@@ -9,13 +9,13 @@ const WelcomeSection = () => {
                     <span className="grow font-Raleway">Finder</span>
                     <p className='grow font-Caveat ml-[6rem] max-md:ml-[5rem] text-xs text-start font-[14px] max-sm:font-[9.11px] italic'>by rework</p>
                 </div>
-                <div className="mt-36 font-Archivo text-4xl text-start max-sm:text-center font-black text-neutral-100 max-md:mt-28 custom-welcome-text max-md:text-3xl max-sm:mx-10 max-sm:mt-10">
+                <div className="mt-36 font-Archivo text-4xl text-start max-sm:text-center font-black text-neutral-100 max-md:mt-28 custom-welcome-text max-md:text-3xl max-sm:mx-10 max-sm:mt-20 max-sm:font-bold">
                     Welcome to TalentFinder!
                 </div>
-                <p className="mt-2 font-Poppins text-base max-sm:text-center text-neutral-100 max-sm:mx-10">
+                <p className="mt-2 font-Poppins font-normal text-base max-sm:text-center text-neutral-100 max-sm:mx-10">
                     Unlock Your Career Potential with Expert Mentorship!
                 </p>
-                <div className="font-Archivo mt-36 mx-auto text-center text-white max-md:mt-28 max-sm:mx-10 max-sm:mt-10">
+                <div className="font-Archivo font-medium mt-36 mx-auto text-center text-white max-md:mt-28 max-sm:mx-10 max-sm:mt-20">
                     Limited slots available! <br />
                     <strong className="font-extrabold">Secure your spot today!</strong>
                 </div>

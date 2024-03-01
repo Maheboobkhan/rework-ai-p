@@ -13,7 +13,7 @@ const SignUp = () => {
                     <div className="font-Archivo self-center mt-12 ml-3.5 text-4xl max-md:text-3xl font-semibold text-center text-black whitespace-nowrap max-md:mt-10">
                         Get Started{" "}
                     </div>
-                    <div className="font-Poppins self-center mt-1.5 ml-3.5 text-lg leading-3 max-md:text-base text-center text-black whitespace-nowrap">
+                    <div className="font-Poppins font-normal self-center mt-1.5 ml-3.5 text-lg leading-3 max-md:text-base text-center text-black whitespace-nowrap">
                         Register Today to Unlock Your Career
                     </div>
                     <section className="flex my-auto gap-5 mt-7 max-md:flex-col">
