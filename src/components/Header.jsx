@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`px-5 md:px-20 border-b-[0.5px] border-[#c6c2c2] py-2 ${isNavbarFixed ? 'fixed top-0 left-0 z-50 w-full bg-white' : 'relative bg-white'}`}>
+    <nav className={`px-5 md:px-20 py-2 ${isNavbarFixed ? 'fixed top-0 left-0 z-50 w-full bg-white border-b-[0.5px] border-[#c6c2c2]' : 'relative bg-white'}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white mt-4 leading-4">
           <span className="grow text-violet-800 text-[25px] md:text-[35px] sm:text-[35px] font-bold font-Raleway">Talent</span>
@@ -50,7 +51,7 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden md:flex lg:gap-x-12 md:gap-x-2 space-x-4 mb-2">
-          <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold font-Poppins">Home</a></li>
+          <li><Link to="/" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold font-Poppins">Home</Link></li>
           <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold font-Poppins">About</a></li>
           <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold font-Poppins">Services</a></li>
           <li><a href="#" className="text-black hover:text-violet-800 hover:border-b-[1.5px] hover:border-violet-800 font-bold font-Poppins">Products</a></li>

@@ -1,4 +1,5 @@
-import {React, useRef} from 'react'
+import { React, useRef } from 'react'
+import { Link } from 'react-router-dom';
 import MentorShipParagraph from './MentorShipParagraph';
 
 import SwiperCore from 'swiper'
@@ -52,16 +53,16 @@ function ProfileCards() {
         <div className="flex gap-5" onMouseEnter={handleSwipersMouseEnter} onMouseLeave={handleSwipersMouseLeave}>
 
           <Swiper
-          ref={swiper1Ref}
+            ref={swiper1Ref}
             slidesPerView={3}
             spaceBetween={30}
 
             loop={true}
             modules={[Scrollbar]}
             className="mySwiper"
-            autoplay={{   
-              delay: 2500,  
-              disableOnInteraction: false 
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
             }}
 
             breakpoints={{
@@ -304,31 +305,33 @@ function ProfileCards() {
               </div>
             </SwiperSlide>
           </Swiper>
-          
+
         </div>
         <Swiper className="mySwiper w-40"
           ref={swiper2Ref}
-            slidesPerView={3}
-            loop={true}
-            scrollbar={{
-              hide: false,
-              dragSize: 20,
-            }}
-            modules={[Scrollbar]}
-            autoplay={{   // Autoplay configuration
-              delay: 2500,  // Delay between transitions in milliseconds
-              disableOnInteraction: false  // Autoplay will not be disabled after user interactions
-            }}>
-            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
-            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
-            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
-            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
-            <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
-          </Swiper>
+          slidesPerView={3}
+          loop={true}
+          scrollbar={{
+            hide: false,
+            dragSize: 20,
+          }}
+          modules={[Scrollbar]}
+          autoplay={{   // Autoplay configuration
+            delay: 2500,  // Delay between transitions in milliseconds
+            disableOnInteraction: false  // Autoplay will not be disabled after user interactions
+          }}>
+          <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+          <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+          <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+          <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+          <SwiperSlide><p className="text-[transparent]">.</p></SwiperSlide>
+        </Swiper>
       </div>
-      <div className="justify-center px-10 hover:border-2 hover:border-violet-800 py-2.5 mt-12 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 hover:text-violet-800 hover:bg-white max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
-        view all
-      </div>
+      <Link to="/view-all-profile-cards">
+        <div className="justify-center px-10 hover:border-2 hover:border-violet-800 py-2.5 mt-12 text-lg font-bold leading-7 text-white capitalize whitespace-nowrap bg-violet-800 hover:text-violet-800 hover:bg-white max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
+          view all
+        </div>
+      </Link>
     </div>
   );
 }
