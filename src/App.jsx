@@ -3,6 +3,7 @@ import "./App.css";
 import Home from './pages/Home'
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router";
+import SignUp from "./pages/SignUp";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     path: "/",
     children: [
       { path: "/", element: <Home /> },
+      { path: "/signup", element: <SignUp /> },
     ],
   }])
 

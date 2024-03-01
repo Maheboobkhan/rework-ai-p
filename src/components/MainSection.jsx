@@ -1,7 +1,9 @@
 import React from "react";
 import NavbarButton from "./NavbarButton";
+import { useNavigate } from "react-router-dom";
 
 function MainSection() {
+  const navigate = useNavigate();
   return (
     <main className="z-10 self-center sm:mt-20 md:mt-20 w-full max-w-[1920px] max-md:max-w-full">
       <section className="flex gap-5 max-md:flex-col max-md:gap-0">
@@ -16,7 +18,9 @@ function MainSection() {
               Elevate your career journey with personalized mentorship from
               industry experts. 🚀
             </p>
-            <button className="hidden md:block sm:block justify-center font-Archivo-700 self-start hover:border-2 hover:border-violet-800 px-7 py-2.5 mt-14 text-lg leading-7 text-white whitespace-nowrap bg-violet-800 max-md:px-5 max-md:mt-10 hover:bg-white hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms; md:mx-0 sm:mx-0 mx-auto">
+            <button className="hidden md:block sm:block justify-center font-Archivo-700 self-start hover:border-2 hover:border-violet-800 px-7 py-2.5 mt-14 text-lg leading-7 text-white whitespace-nowrap bg-violet-800 max-md:px-5 max-md:mt-10 hover:bg-white hover:text-violet-800 cursor-pointer transition-all transition-duration: 400ms; md:mx-0 sm:mx-0 mx-auto"
+              onClick={() => navigate("/signup")}
+            >
               Book a trial
             </button>
             <div className="flex flex-col sm:flex sm:flex-row md:flex md:flex-row md:gap-5 gap-2 sm:gap-5 justify-between items-center md:self-start sm:self-start mt-6 text-lg text-center text-indigo-400 whitespace-nowrap">
