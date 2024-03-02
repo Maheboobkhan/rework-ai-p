@@ -4,11 +4,11 @@ import SignUpForm from '../components/signup/SignUpForm';
 
 const SignUp = () => {
     return (
-        <div className="h-screen w-screen mb-0 grid grid-cols-3 max-sm:grid-cols-1 overflow-x-hidden">
-            <div className="col-span-1 ml-1">
+        <div className="h-screen w-screen sm:flex overflow-x-hidden">
+            <div className="sm:w-1/3 ml-1">
                 <WelcomeSection />
             </div>
-            <div className="col-span-2 max-sm:col-span-1">
+            <div className="sm:w-2/3 sm:pt-12 sm:pb-5">
                 <main className="px-10 sm:pt-10 bg-white">
                     <div className="font-Archivo self-center mt-12 ml-3.5 text-4xl max-md:text-3xl font-semibold text-center text-black whitespace-nowrap max-md:mt-10">
                         Get Started{" "}
