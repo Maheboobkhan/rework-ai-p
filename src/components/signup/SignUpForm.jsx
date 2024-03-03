@@ -3,20 +3,20 @@ import * as Yup from 'yup';
 
 const InputField = ({ label, type, name, placeholder, value, onChange, error }) => (
     <div className="">
-        <label className="font-Poppins font-normal block text-base max-md:text-sm text-black">
+        <label className="font-Poppins font-normal block text-[15px] max-md:text-sm text-black">
             {label} <span className="text-red-600">*</span>
         </label>
-        <input type={type} name={name} className="justify-center items-start p-3 max-md:p-2 w-full text-base max-md:text-sm whitespace-nowrap rounded-lg border border-solid bg-zinc-50 border-stone-300" placeholder={placeholder} value={value} onChange={onChange} />
-        {error && <div className="text-red-500 text-sm">{error}</div>}
+        <input type={type} name={name} className="justify-center items-start p-2 w-full text-base max-md:text-sm whitespace-nowrap rounded-lg border border-solid bg-zinc-50 border-stone-300" placeholder={placeholder} value={value} onChange={onChange} />
+        {error && <div className="text-red-500 text-xs">{error}</div>}
     </div>
 );
 
 const SelectField = ({ label, name, options, placeholder, value, onChange, error }) => (
     <div className="">
-        <label className="font-Poppins font-normal block text-base max-md:text-xs text-black">
+        <label className="font-Poppins font-normal block text-[15px] max-md:text-xs max-sm:text-[15px] text-black">
             {label} <span className="text-red-600">*</span>
         </label>
-        <select name={name} className="justify-center items-start p-3 max-md:p-2 w-full text-base max-md:text-xs whitespace-nowrap rounded-lg border border-solid bg-zinc-50 border-stone-300" value={value} onChange={onChange}>
+        <select name={name} className="justify-center items-start p-2 w-full text-base max-md:text-xs whitespace-nowrap rounded-lg border border-solid bg-zinc-50 border-stone-300" value={value} onChange={onChange}>
             <option className='p-3 max-md:p-2 text-base max-md:text-xs' value="" disabled>{placeholder}</option>
             {options.map((option, index) => (
                 <option key={index} value={option.value}>
@@ -89,7 +89,7 @@ const SignUpForm = () => {
 
     return (
         <form onSubmit={handleSubmit} className="flex flex-col">
-            <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-6">
+            <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-4">
                 <InputField label="First Name"
                     type="text" name="firstName"
                     placeholder="Enter your first name"
@@ -158,13 +158,13 @@ const SignUpForm = () => {
                 />
             </div>
 
-            <label htmlFor="description" className="mt-7 text-base max-md:text-sm font-medium leading-5 text-black">
+            <label htmlFor="description" className="mt-2 text-base max-md:text-sm font-medium text-black">
                 Description
             </label>
-            <textarea id="description" name="description" className="items-start h-40 max-md:h-24 p-5 mt-1 text-base max-md:text-sm whitespace-nowrap rounded-xl border border-solid bg-zinc-50 border-stone-300 text-neutral-500" placeholder="Write your description" value={formValues.description} onChange={handleChange} style={{ resize: 'none' }} />
+            <textarea id="description" name="description" className="items-start h-24 max-md:h-24 p-4 mt-1 text-base max-md:text-sm whitespace-nowrap rounded-xl border border-solid bg-zinc-50 border-stone-300 text-neutral-500" placeholder="Write your description" value={formValues.description} onChange={handleChange} style={{ resize: 'none' }} />
             {formErrors.description && <div className="text-red-500 text-sm">{formErrors.description}</div>}
 
-            <button type="submit" className="font-Poppins mx-auto px-10 py-4 mt-10 max-md:px-10 max-md:py-3 max-md:mt-7 max-sm: w-[70%] max-sm:w-[95%] text-xl leading-7 border border-violet-900 max-md:leading-4 bg-violet-900 sm:rounded-3xl shadow-lg text-zinc-50 hover:text-violet-900 hover:bg-white">
+            <button type="submit" className="font-Poppins mx-auto px-10 py-2 mt-5 max-md:px-10 max-md:py-2 max-md:mt-3 max-sm: w-[70%] max-sm:w-[95%] text-xl leading-7 border border-violet-900 max-md:leading-4 bg-violet-900 sm:rounded-xl shadow-lg text-zinc-50 hover:text-violet-900 hover:bg-white">
                 Register
             </button>
         </form>
