@@ -5,7 +5,7 @@ import SignUpForm from '../components/signup/SignUpForm';
 const SignUp = () => {
     return (
         <div className="h-screen w-screen sm:flex overflow-x-hidden">
-            <div className="sm:w-1/3 ml-1">
+            <div className="sm:w-[30%] ml-1">
                 <WelcomeSection />
             </div>
             <div className="sm:w-2/3">
