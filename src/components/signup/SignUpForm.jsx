@@ -275,9 +275,7 @@ const SignUpForm = () => {
     >
         Register
     </button>
-</form>
-
-    );
+</form>    );
 };
 
 export default SignUpForm;
