@@ -297,6 +297,7 @@ import React, { useState, useEffect } from 'react';
 import Header from "../components/Header";
 import MentorShipParagraph from '../components/MentorShipParagraph';
 import cardsData from "../components/data/ViewAllProfileCard.json";
+import Footer from '../components/footer/Footer';
 
 const ViewAllProfileCard = () => {
     const [cards, setCards] = useState(cardsData);
@@ -467,6 +468,9 @@ const ViewAllProfileCard = () => {
                     </button>
                 </div>
 
+            </div>
+            <div className="bg-[#5C27C0] max-w-screen">
+                <Footer />
             </div>
         </div>
     );
