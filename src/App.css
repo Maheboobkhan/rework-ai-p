@@ -24,3 +24,8 @@
         margin-right: 10px;
     }
 }
+
+.custom-select {
+    background: url('/public/images/Vector.svg') no-repeat right 0.5rem center;
+    background-size: 0.85rem;
+  }

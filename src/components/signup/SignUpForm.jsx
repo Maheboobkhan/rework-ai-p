@@ -16,8 +16,8 @@ const SelectField = ({ label, name, options, placeholder, value, onChange, error
         <label className="font-Poppins font-normal block text-[15px] max-md:text-xs max-sm:text-[15px] text-black">
             {label} <span className="text-red-600">*</span>
         </label>
-        <select name={name} className="justify-center items-start p-2 w-full text-base max-md:text-xs whitespace-nowrap rounded-lg border border-solid bg-zinc-50 border-stone-300 appearance-none" value={value} onChange={onChange}>
-            <option className='p-3 max-md:p-2 text-base max-md:text-xs' value="" disabled>{placeholder}</option>
+        <select name={name} className="justify-center items-start p-2 w-full text-base max-md:text-xs whitespace-nowrap rounded-lg border border-solid bg-zinc-50 border-stone-300 appearance-none custom-select" value={value} onChange={onChange}>
+            <option className='p-3 max-md:p-2 border border-solid border-stone-300 text-sm max-md:text-xs' value="" disabled>{placeholder}</option>
             {options.map((option, index) => (
                 <option key={index} value={option.value}>
                     {option.label}
@@ -133,7 +133,7 @@ const SignUpForm = () => {
                 />
                 <SelectField label="Qualification"
                     name="selectQualification"
-                    placeholder="--Select highest qualification--"
+                    placeholder="-Select highest qualification-"
                     options={[
                         { value: 'option1', label: 'Option 1' },
                         { value: 'option2', label: 'Option 2' },
@@ -158,7 +158,7 @@ const SignUpForm = () => {
                 />
             </div>
 
-            <label htmlFor="description" className="mt-2 text-base max-md:text-sm font-medium text-black">
+            <label htmlFor="description" className="mt-2 text-base max-md:text-sm font-normal text-black">
                 Description
             </label>
             <textarea id="description" name="description" className="items-start h-32 max-md:h-24 p-4 mt-1 text-base max-md:text-sm whitespace-nowrap rounded-xl border border-solid bg-zinc-50 border-stone-300 text-neutral-500" placeholder="Write your description" value={formValues.description} onChange={handleChange} style={{ resize: 'none' }} />
@@ -168,114 +168,6 @@ const SignUpForm = () => {
                 Register
             </button>
         </form>
-
-
-
-
-
-        // <form onSubmit={handleSubmit} className="flex flex-col items-center overflow-hidden">
-        //     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[600px] mx-auto">
-        //         <InputField
-        //             label="First Name"
-        //             type="text"
-        //             name="firstName"
-        //             placeholder="Enter your first name"
-        //             value={formValues.firstName}
-        //             onChange={handleChange}
-        //             error={formErrors.firstName}
-        //         />
-        //         <InputField
-        //             label="Last Name"
-        //             type="text"
-        //             name="lastName"
-        //             placeholder="Enter your last name"
-        //             value={formValues.lastName}
-        //             onChange={handleChange}
-        //             error={formErrors.lastName}
-        //         />
-        //         <InputField
-        //             label="Phone Number"
-        //             type="tel"
-        //             name="phoneNumber"
-        //             placeholder="Enter your phone number"
-        //             value={formValues.phoneNumber}
-        //             onChange={handleChange}
-        //             error={formErrors.phoneNumber}
-        //         />
-        //         <InputField
-        //             label="Email Address"
-        //             type="email"
-        //             name="emailAddress"
-        //             placeholder="Enter your email address"
-        //             value={formValues.emailAddress}
-        //             onChange={handleChange}
-        //             error={formErrors.emailAddress}
-        //         />
-        //         <SelectField
-        //             label="Domain you are looking for"
-        //             name="selectDomain"
-        //             placeholder="--Select Domain--"
-        //             options={[
-        //                 { value: 'option1', label: 'Option 1' },
-        //                 { value: 'option2', label: 'Option 2' },
-        //             ]}
-        //             value={formValues.selectDomain}
-        //             onChange={handleChange}
-        //             error={formErrors.selectDomain}
-        //         />
-        //         <SelectField
-        //             label="Qualification"
-        //             name="selectQualification"
-        //             placeholder="--Select highest qualification--"
-        //             options={[
-        //                 { value: 'option1', label: 'Option 1' },
-        //                 { value: 'option2', label: 'Option 2' },
-        //             ]}
-        //             value={formValues.selectQualification}
-        //             onChange={handleChange}
-        //             error={formErrors.selectQualification}
-        //         />
-        //         <InputField
-        //             label="Create a Password"
-        //             type="password"
-        //             name="createPassword"
-        //             placeholder="Create a password"
-        //             value={formValues.createPassword}
-        //             onChange={handleChange}
-        //             error={formErrors.createPassword}
-        //         />
-        //         <InputField
-        //             label="Confirm Password"
-        //             type="password"
-        //             name="confirmPassword"
-        //             placeholder="Confirm password"
-        //             value={formValues.confirmPassword}
-        //             onChange={handleChange}
-        //             error={formErrors.confirmPassword}
-        //         />
-        //     </div>
-
-        //     <label htmlFor="description" className="mt-4 text-base max-md:text-sm font-medium text-black">
-        //         Description
-        //     </label>
-        //     <textarea
-        //         id="description"
-        //         name="description"
-        //         className="w-full p-4 mt-1 text-base max-md:text-sm rounded-xl border border-solid bg-zinc-50 border-stone-300 text-neutral-500"
-        //         placeholder="Write your description"
-        //         value={formValues.description}
-        //         onChange={handleChange}
-        //         style={{ resize: 'none' }}
-        //     />
-        //     {formErrors.description && <div className="mt-2 border max-md:text-sm font-medium text-black">{formErrors.description}</div>}
-
-        //     <button
-        //         type="submit"
-        //         className="font-Poppins w-full mt-3 px-8 py-2 text-xl leading-7 border border-violet-900 bg-violet-900 shadow-lg text-zinc-50 hover:text-violet-900 hover:bg-white"
-        //     >
-        //         Register
-        //     </button>
-        // </form>
     );
 };
 
