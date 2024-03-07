@@ -9,7 +9,7 @@ const WelcomeSection = () => {
                     <span className="grow font-Raleway">Finder</span>
                     <p className='grow mt-0 font-Caveat ml-[6rem] max-md:ml-[5rem] text-xs text-start font-[14px] max-sm:font-[9.11px] italic'>by rework</p>
                 </div>
-                <div className="my-6 font-Archivo text-3xl lg:text-4xl text-start max-sm:text-center font-black text-neutral-100  custom-welcome-text max-sm:mx-8 max-sm:font-bold">
+                <div className="my-10 font-Archivo text-3xl lg:text-4xl text-start max-sm:text-center font-black text-neutral-100  custom-welcome-text max-sm:mx-8 max-sm:font-bold">
                     Welcome to TalentFinder!
                     <p className="mt-2 font-Poppins font-normal text-base lg:text-lg max-sm:text-center text-neutral-100">
                         Unlock Your Career Potential with Expert Mentorship!
@@ -23,8 +23,8 @@ const WelcomeSection = () => {
             <div className="flex flex-col max-md:ml-0 max-md:w-full">
                 <img
                     loading="lazy"
-                    src="\images\right-image.jpg"
-                    className="h-[49vh] lg:w-[30vw] bg-red-600 max-sm:w-screen max-sm:h-[20%] object-fill object-center"
+                    src="\images\right-image.svg"
+                    className="h-[49vh] lg:w-[30vw] max-sm:w-screen max-sm:h-[20%] object-fill object-center"
                 />
             </div>
         </main>
