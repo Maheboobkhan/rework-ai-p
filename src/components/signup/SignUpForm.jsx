@@ -161,10 +161,10 @@ const SignUpForm = () => {
             <label htmlFor="description" className="mt-2 text-base max-md:text-sm font-normal text-black">
                 Description
             </label>
-            <textarea id="description" name="description" className="items-start h-32 max-md:h-24 p-4 mt-1 text-base max-md:text-sm whitespace-nowrap rounded-xl border border-solid bg-zinc-50 border-stone-300 text-neutral-500" placeholder="Write your description" value={formValues.description} onChange={handleChange} style={{ resize: 'none' }} />
+            <textarea id="description" name="description" className="items-start h-24 max-md:h-24 p-4 mt-1 text-base max-md:text-sm whitespace-nowrap rounded-xl border border-solid bg-zinc-50 border-stone-300 text-neutral-500" placeholder="Write your description" value={formValues.description} onChange={handleChange} style={{ resize: 'none' }} />
             {formErrors.description && <div className="text-red-500 text-sm">{formErrors.description}</div>}
 
-            <button type="submit" className="font-Poppins mx-auto px-10 py-2 mt-5 max-md:px-10 max-md:py-2 max-md:mt-3 max-sm: w-[70%] max-sm:w-[95%] text-xl leading-7 border border-violet-900 max-md:leading-4 bg-violet-900 shadow-lg text-zinc-50 hover:text-violet-900 hover:bg-white max-sm:mb-4">
+            <button type="submit" className="font-Poppins mx-auto px-10 py-2 mt-4 max-md:px-10 max-md:py-2 max-md:mt-3 max-sm: w-[70%] max-sm:w-[95%] text-xl leading-7 border border-violet-900 max-md:leading-4 bg-violet-900 shadow-lg text-zinc-50 hover:text-violet-900 hover:bg-white max-sm:mb-4">
                 Register
             </button>
         </form>

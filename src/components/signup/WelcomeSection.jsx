@@ -1,33 +1,30 @@
 import React from 'react'
+import WelcomeTestimonial from './WelcomeTestimonial'
 
 const WelcomeSection = () => {
     return (
-        <main className="flex flex-col pt-2 w-full bg-[#FFFFFF]">
-            <section className=" flex flex-col w-full px-3 pb-2 bg-violet-800 rounded-t-lg">
-                <div className="text-2xl max-md:text-xl font-extrabold">
-                    <span className="grow font-Raleway text-white">Talent </span>
-                    <span className="grow font-Raleway">Finder</span>
-                    <p className='grow mt-0 font-Caveat ml-[6rem] max-md:ml-[5rem] text-xs text-start font-[14px] max-sm:font-[9.11px] italic'>by rework</p>
-                </div>
-                <div className="my-10 font-Archivo text-3xl lg:text-4xl text-start max-sm:text-center font-black text-neutral-100  custom-welcome-text max-sm:mx-8 max-sm:font-bold">
-                    Welcome to TalentFinder!
-                    <p className="mt-2 font-Poppins font-normal text-base lg:text-lg max-sm:text-center text-neutral-100">
-                        Unlock Your Career Potential with Expert Mentorship!
-                    </p>
-                </div>
-                <div className="font-Archivo font-medium text-[14px] mx-auto text-center text-white max-sm:text-base max-sm:mx-8">
-                    Limited slots available! <br className='max-sm:hidden' />
-                    <strong className="font-extrabold">Secure your spot today!</strong>
-                </div>
-            </section>
-            <div className="flex flex-col max-md:ml-0 max-md:w-full">
-                <img
-                    loading="lazy"
-                    src="\images\right-image.svg"
-                    className="h-[49vh] lg:w-[30vw] max-sm:w-screen max-sm:h-[20%] object-fill object-center"
-                />
+        <div className="flex flex-col grow px-6 w-full bg-violet-800 max-md:px-5 max-md:mt-3 max-md:max-w-full">
+            <div className="font-Archivo self-center mt-[4.5rem] text-3xl font-black tracking-wide text-center text-neutral-100">
+                Let us help you land your Dream Job
             </div>
-        </main>
+            <div className="font-Poppins self-center mt-2 text-md text-center text-neutral-100">
+                Unlock Your Career Potential with Expert Mentorship!
+            </div>
+            <img
+                loading="lazy"
+                srcSet="/images/Frame.svg"
+                className="mt-2 rounded-md shadow-sm h-[58.5px] w-[159.35px] self-center max-md:mt-2"
+            />
+            <div className="flex flex-col justify-center items-start self-end pl-11 mt-7 max-w-full w-[295.69px] text-[0.5rem] tracking-normal rounded-[50%] bg-violet-200 bg-opacity-20 max-md:mt-5">
+                <WelcomeTestimonial/>
+            </div>
+            <div className="flex flex-col justify-start items-start self-start pr-11 mt-2 max-w-full w-[295.69px] text-[0.5rem] text-black tracking-normal rounded-[50%] bg-violet-200 bg-opacity-20" >
+                <WelcomeTestimonial/>
+            </div>
+            <div className="flex flex-col justify-center items-start self-end pl-11 mt-2 mb-2 mr-12 max-w-full w-[249.74px] text-[0.5rem] text-black tracking-normal rounded-[50%] bg-violet-200 bg-opacity-20" >
+                <WelcomeTestimonial/>
+            </div>
+        </div>
     )
 }
 
