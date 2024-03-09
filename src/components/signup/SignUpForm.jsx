@@ -157,7 +157,7 @@ const SignUpForm = () => {
         description,
       };
       const response = await axios.post(
-        "http://localhost:3000/api/v1/create-user",
+        "https://telent-finder.vercel.app/api/v1/create-user",
         {
           user: users,
         }
