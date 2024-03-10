@@ -8,8 +8,10 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Scrollbar, Autoplay } from 'swiper/modules';
+import { useNavigate } from "react-router-dom";
 
 function StepsCards() {
+  const navigate = useNavigate();
   SwiperCore.use([Scrollbar, Autoplay]);
   return (
     <div className="flex flex-col items-center px-16 py-11 bg-white max-md:px-5">
@@ -52,9 +54,9 @@ function StepsCards() {
           </div>
         </div>
       </div>
-      <div className="font-Poppins-500 hidden sm:hidden md:block justify-center px-7 py-2.5 mt-11 text-lg font-medium text-center text-violet-800 hover:text-neutral-100 hover:bg-violet-800 whitespace-nowrap border-2 border-solid shadow-2xl bg-neutral-100 border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
+      <button onClick={()=> navigate('/signup')} className="font-Poppins-500 hidden sm:hidden md:block justify-center px-7 py-2.5 mt-11 text-lg font-medium text-center text-violet-800 hover:text-neutral-100 hover:bg-violet-800 whitespace-nowrap border-2 border-solid shadow-2xl bg-neutral-100 border-[color:var(--Primary-100,#5C27C0)] max-md:px-5 max-md:mt-10 cursor-pointer transition-all transition-duration: 400ms;">
         Get Started
-      </div>
+      </button>
 
 
 

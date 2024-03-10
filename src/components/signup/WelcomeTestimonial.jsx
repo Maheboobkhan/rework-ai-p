@@ -1,12 +1,12 @@
 import React from 'react'
 
-const WelcomeTestimonial = () => {
+const WelcomeTestimonial = ({srcSet}) => {
     return (
         <div className="font-Poppins flex z-10 flex-col px-2 py-1.5 mt-0 mb-0 w-full bg-indigo-100 text-black rounded shadow-md">
             <div className="flex gap-0 text-right text-black">
                 <img
                     loading="lazy"
-                    srcSet="..."
+                    srcSet={srcSet}
                     className="shrink-0 aspect-square w-[21px]"
                 />
                 <div className="flex flex-col justify-center self-center px-3">
